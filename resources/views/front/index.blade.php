@@ -245,7 +245,7 @@
                                         <a class="btn__normal gray animated--text" 
                                         
                                         
-                                            href="login.html"
+                                            href="{{route('login')}}"
                                         
                                         
                                         >Buy Plan </a>           
@@ -300,7 +300,7 @@
                                         <a class="btn__normal coloured animated--text" 
                                         
                                         
-                                            href="login.html"
+                                            href="{{route('login')}}"
                                         
                                         
                                         >Buy Plan </a>           
@@ -355,7 +355,7 @@
                                         <a class="btn__normal coloured animated--text" 
                                         
                                         
-                                            href="login.html"
+                                            href="{{route('login')}}"
                                         
                                         
                                         >Buy Plan </a>           
@@ -409,7 +409,7 @@
                                         <a class="btn__normal coloured animated--text" 
                                         
                                         
-                                            href="login.html"
+                                            href="{{route('login')}}"
                                         
                                         
                                         >Buy Plan </a>           
@@ -463,7 +463,7 @@
                                         <a class="btn__normal gray animated--text" 
                                         
                                         
-                                            href="login.html"
+                                            href="{{route('login')}}"
                                         
                                         
                                         >Buy Plan </a>           
@@ -517,7 +517,7 @@
                                         <a class="btn__normal gray animated--text" 
                                         
                                         
-                                            href="login.html"
+                                            href="{{route('login')}}"
                                         
                                         
                                         >Buy Plan </a>           
