@@ -68,6 +68,36 @@
         <!--event info -->
 
         <div id="tored"></div>
+
+        <section class="pb70">
+            <div class="explain">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 p0">
+                        <div class="explain__text">
+                            <div>
+                                <h4 class="mb40">Our <span style="color: #e5ae47">Mission</span></h4>
+                                <p class="text-left mb50 explit">
+                                Helping our Clients earn Passive Income is our Major Goal. Here at velmolt,
+                                    we want to provide the most transparent and stable investment platform available. 
+                                    Make no mistake, investing your money into Cryptocurrencies is always a risk, but when your trades are backed by the experience of our team and our AI enhanced trading models, you stand to gain much more than you risk losing. We are a professional and trusted wealth
+                                    management company with specializations in Wealth Creation and Digital Assets. We offer different rates of return for Forex and Cryptocurrency trading, determined by our traders and AI blockchain systems.
+
+                                </p>
+                                <a class="btn__normal coloured" href="{{route('login')}}">Get started &nbsp;&nbsp;<i class="ti-stats-up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="col-md-6 p0">
+                        <div class="text-center">
+                            <video src="//videos.ctfassets.net/vkizfq3pbtzc/OahpaQJX1xuWlFmiLRQMY/3bb543ca66ddf47c734e377a0336fa65/28Apr21_CoinExplode.mp4" autoplay="autoplay" playsinline="" muted="muted" preload="none" height="600" width="" class=""></video>
+                            <!-- <img src="assets/img/hellit.jpg" data-aos="fade-left"> --> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="mb80 mt80">
             <div class="container-custom" id="sec-intro">
                 <div class="row justify-content-center">
@@ -157,39 +187,11 @@
         
 
         <!--event countdown -->
-        <section class="pb70">
-            <div class="explain">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 p0">
-                        <div class="explain__text">
-                            <div>
-                                <h4 class="mb40">Our <span style="color: #e5ae47">Mission</span></h4>
-                                <p class="text-left mb50 explit">
-                                Helping our Clients earn Passive Income is our Major Goal. Here at velmolt,
-                                    we want to provide the most transparent and stable investment platform available. 
-                                    Make no mistake, investing your money into Cryptocurrencies is always a risk, but when your trades are backed by the experience of our team and our AI enhanced trading models, you stand to gain much more than you risk losing. We are a professional and trusted wealth
-                                    management company with specializations in Wealth Creation and Digital Assets. We offer different rates of return for Forex and Cryptocurrency trading, determined by our traders and AI blockchain systems.
-
-                                </p>
-                                <a class="btn__normal coloured" href="{{route('login')}}">Get started &nbsp;&nbsp;<i class="ti-stats-up"></i></a>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="col-md-6 p0">
-                        <div class="text-center">
-                            <video src="//videos.ctfassets.net/vkizfq3pbtzc/OahpaQJX1xuWlFmiLRQMY/3bb543ca66ddf47c734e377a0336fa65/28Apr21_CoinExplode.mp4" autoplay="autoplay" playsinline="" muted="muted" preload="none" height="600" width="" class=""></video>
-                            <!-- <img src="assets/img/hellit.jpg" data-aos="fade-left"> --> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <section class="mt50">
             <div class="plan">
                 <div class="plan__heading text-center">
-                    <h3 class="h3-heading text-center">Price list</h3>
+                    {{-- <h3 class="h3-heading text-center">Price list</h3> --}}
                     <h1 class="mb15">plans we offer</h1>
                     <div class="divider">
                         <div class="divider__span">
@@ -199,7 +201,7 @@
                 </div>
                 <div class="container-custom">
                     <div class="row mt60">
-                        <div class="col-md-4 col-lg-3 mb100">
+                        <div class="col-md-4 col-lg-4 mb100">
                             <div class="price" data-aos="fade-right">
                                 <div class="price__top">
                                     <div class="pricing text-center">
@@ -254,7 +256,7 @@
                             </div>
                         </div>
                         
-                        <div class="col-md-4 col-lg-3 mb100">
+                        <div class="col-md-4 col-lg-4 mb100">
                             <div class="price" data-aos="fade-right">
                                 <div class="price__top">
                                     <div class="pricing text-center">
@@ -309,7 +311,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-lg-3 mb100">
+                        <div class="col-md-4 col-lg-4 mb100">
                             <div class="price" data-aos="fade-right">
                                 <div class="price__top">
                                     <div class="pricing text-center">
@@ -364,7 +366,7 @@
                             </div>
                         </div>
             
-                        <div class="col-md-4 col-lg-3 mb100">
+                        <div class="col-md-4 col-lg-4 mb100">
                             <div class="price" data-aos="fade-up">
                                 <div class="price__top">
                                     <div class="pricing text-center">
@@ -418,7 +420,7 @@
                             </div>
                         </div>
             
-                        <div class="col-md-4 col-lg-3 mb100">
+                        <div class="col-md-4 col-lg-4 mb100">
                             <div class="price" data-aos="fade-up" data-aos-duration="1500">
                                 <div class="price__top">
                                     <div class="pricing text-center">
@@ -472,7 +474,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-lg-3 mb100">
+                        <div class="col-md-4 col-lg-4 mb100">
                             <div class="price" data-aos="fade-up" data-aos-duration="1500">
                                 <div class="price__top">
                                     <div class="pricing text-center">
@@ -968,7 +970,7 @@
         </section>
     </main>
 
-    <section class="pt100 join-bg pb100">
+    {{-- <section class="pt100 join-bg pb100">
         <div class="join" id="parallax">
             <div>
                 <div class="row justify-content-center text-center">
@@ -992,5 +994,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @stop

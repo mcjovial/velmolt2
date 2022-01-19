@@ -39,7 +39,7 @@ $(window).load(function() {
 let myswiper = new Swiper('.swiper1', {
     simulateTouch: false,
     autoplay: { 
-        delay: 20000,
+        delay: 5000,
     },
     speed: 1000,
     loop: false,
