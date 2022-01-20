@@ -9,7 +9,7 @@
     <meta name="keywords" content="crytpo, cryptocurrency, forex, bitcoin, investment, ethereum, litecoin, velmolt, crypto-investment">
     <meta name="author" content="velmolt company developer">
     <meta name="identifier-url" content="index.html">
-    <meta name="contact" content="support@velmolt.org">
+    <meta name="contact" content="support@velmolt.com">
     <meta name="robots" content="index, follow, all">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title> Velmolt | Authentication (Take a step today by joining us)</title>
@@ -186,7 +186,7 @@
                     <div class="footer">
                         <div class="row align-items-center">
                             <div class="col-8">
-                                Email: support@velmolt.org
+                                Email: support@velmolt.com
                             </div>
                             <div class="col-4 text-right">
                                 <i class="cc BTC"></i>

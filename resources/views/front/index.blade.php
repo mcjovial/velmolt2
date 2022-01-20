@@ -62,6 +62,45 @@
                 </div>
             </div>
         </section>
+        <section>
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                    {
+                    "symbols": [
+                    {
+                        "description": "Tesla",
+                        "proName": "NASDAQ:TSLA"
+                    },
+                    {
+                        "description": "Apple inc",
+                        "proName": "NASDAQ:AAPL"
+                    },
+                    {
+                        "description": "Aramco",
+                        "proName": "EGX:ACGC"
+                    },
+                    {
+                        "description": "Upwork",
+                        "proName": "NASDAQ:UPWK"
+                    },
+                    {
+                        "description": "Dropbox",
+                        "proName": "NASDAQ:DBX"
+                    }
+                    ],
+                    "showSymbolLogo": true,
+                    "colorTheme": "light",
+                    "isTransparent": false,
+                    "displayMode": "adaptive",
+                    "locale": "en"
+                    }
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
+        </section>
 
         <!--cover section slider end -->
 
@@ -96,6 +135,14 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section style="padding-top: 20px !important; padding-bottom: 15px !important;">
+            <div class="container" id="iframe-parent">
+                    <div style="height:649px; padding:0px; margin:0px; width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=full_v2&amp;theme=dark&amp;cnt=10&amp;pref_coin_id=1505&amp;graph=yes" width="100%" height="649px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe></div>
+        
+            </div>
+        
         </section>
 
         <section class="mb80 mt80">
@@ -167,23 +214,22 @@
             </div>
         </section>
 
-        <!--<section style="position: relative">-->
-        <!--    <div class="container">-->
-        <!--        <div class="row justify-content-center">-->
-        <!--            <div class="col-md-7">-->
-        <!--                <video-js id="my-about" data-setup='{"fluid": true}' class="video-js vjs-theme-city vjs-big-play-centered">-->
-        <!--                    <source src="/videosw/trade.webm" type="video/webm">-->
-        <!--                    <source src="/videosw/trade.webm" type="video/webm">-->
-                        
-        <!--                    <p class="vjs-no-js">-->
-        <!--                        To view this video please enable JavaScript, and consider upgrading to a-->
-        <!--                        web browser that supports HTML5 video.-->
-        <!--                    </p>-->
-        <!--                </video-js>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--    </div>-->
-        <!--</section>-->
+        {{-- <section style="position: relative">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-7">
+                        <video-js id="my-about" data-setup='{"fluid": true}' class="video-js vjs-theme-city vjs-big-play-centered">
+                            <source src="/videosw/trade.webm" type="video/webm">
+                            <source src="/videosw/trade.webm" type="video/webm">       
+                            <p class="vjs-no-js">
+                                To view this video please enable JavaScript, and consider upgrading to a
+                                web browser that supports HTML5 video.
+                            </p>
+                        </video-js>
+                    </div>
+                </div>
+            </div>
+        </section> --}}
         
 
         <!--event countdown -->
@@ -935,7 +981,7 @@
                                 </div>
                                 <div>
                                     <span>E-Mail</span>
-                                    <p>support@velmolt.org</p>
+                                    <p>support@velmolt.com</p>
                                 </div>
                             </div>
                         </div>

@@ -42,7 +42,7 @@
                 <div class="col-lg-8" data-aos-duration="1400" data-aos-once="true">
                     <h4>Knowledge-base</h4>
                     <p>find out the commonly most asked questions forwarded to Velmolt from our investors.
-                    You can easily get in touch with us in case you have other questions by sending an email to <strong>support@Velmolt.org </strong></p>
+                    You can easily get in touch with us in case you have other questions by sending an email to <strong>support@velmolt.com </strong></p>
                     <div>
                         <div class="divider pseudo">
                             <span class="divider__span" style="background-color: inherit">
@@ -74,7 +74,7 @@
                                     
                                         </div>
                                         <div class="hidden" id="vitoti">
-                                            <p>You can get started as an investor with Velmolt here: <a href="register.html">https://www.Velmolt.org/register</a></p>
+                                            <p>You can get started as an investor with Velmolt here: <a href="register.html">https://www.velmolt.com/register</a></p>
 
                                             <p>
                                                 The entire account creation and investment process is completed online via the Velmolt website. You will be
@@ -334,7 +334,7 @@
                                             <i class="fa fa-phone"></i> I have other questions?
                                         </div>
                                         <div class="hidden" id="finali2">
-                                            <p>Contact our support team at <a href="mailto: support@Velmolt.org">support@Velmolt.org</a>
+                                            <p>Contact our support team at <a href="mailto: support@velmolt.com">support@velmolt.com</a>
                                             </p>
                                         </div>
                                     </div>

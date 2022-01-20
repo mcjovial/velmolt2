@@ -16,7 +16,7 @@
     <meta name="revisit-after" content="1 days">
     <meta name="distribution" content="global">
     <meta name="copyright" content="index.html">
-    <meta name="contact" content="support@velmolt.org">
+    <meta name="contact" content="support@velmolt.com">
     <meta name="robots" content="index, follow, all">
     <meta name="identifier-url" content="index.html">
     <meta name="apple-mobile-web-app-capable" content="velmolt">
@@ -51,7 +51,7 @@
   "@context": "https://schema.org",
   "@type": "organization",
   "name": "velmolt",
-  "url": "http://www.velmolt.org",
+  "url": "http://www.velmolt.com",
   "sameAs": [
     "http://instagram.com/velmolt.investments"
   ]
@@ -336,11 +336,11 @@
                     <p>We are a professional and trusted wealth management company with specializations in Wealth Creation and Digital Assets.</p>
                     <p style="line-height: 1.5;margin-bottom: .8rem;"><i class="ti-world"></i>&nbsp; 1166 6th Ave, New York, NY 10036, United States.</p>
                     <p style="line-height: 1.5;margin-bottom: .8rem;"><i class="ti-mobile"></i>&nbsp; +1 (917)-985-7247</p>
-                    <p style="line-height: 1.5;margin-bottom: .8rem;"><i class="ti-email"></i>&nbsp; support@velmolt.org</p>
+                    <p style="line-height: 1.5;margin-bottom: .8rem;"><i class="ti-email"></i>&nbsp; support@velmolt.com</p>
                     <a href="https://www.instagram.com/velmolt.investments"><i class="ti-instagram"></i>
                         <span style="color: inherit;font-size: 14px;color: #ccc;font-weight: 600;">&nbsp;Instagram</span>
                     </a>
-                    <!--<a href="mailto:support@velmolt.org">| support@velmolt.org</a>-->
+                    <!--<a href="mailto:support@velmolt.com">| support@velmolt.com</a>-->
                     <!--<a href="https://www.instagram.com/velmolt.investments"><i class="ti-facebook"></i></a>-->
                     <!--<a href="https://www.instagram.com/velmolt.investments"><i class="ti-youtube"></i></a>-->
                 </div>
@@ -503,7 +503,7 @@ s0.parentNode.insertBefore(s1,s0);
 <!-- Custom js -->
 </body>
 
-<!-- Mirrored from www.velmolt.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jan 2022 10:44:18 GMT -->
+<!-- Mirrored from www.velmolt.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jan 2022 10:44:18 GMT -->
 </html>
 <!--<script src="/java/vid.js"></script>-->
 <script src="{{url('/')}}/asset/clone/java/home.js"></script>
