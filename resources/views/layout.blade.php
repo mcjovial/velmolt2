@@ -44,6 +44,11 @@
     <link rel="stylesheet" href="{{url('/')}}/asset/clone/stylesheet/simple-line-icons.css">
     <link rel="stylesheet" href="{{url('/')}}/asset/clone/stylesheet/micell.css">
     <link rel="stylesheet" href="{{url('/')}}/asset/css/toast.css" type="text/css">
+
+    {{-- <link href="{{url('/')}}/asset/nova/imported-css.css" rel="stylesheet" />
+    <link href="{{url('/')}}/asset/nova/css/plugins.css" rel="stylesheet">
+    <link href="{{url('/')}}/asset/nova/css/style.css" rel="stylesheet"> --}}
+
     @yield('css')
 </head>
 <script type="application/ld+json">    
@@ -386,7 +391,7 @@
                 <hr class="my-0">
             </div>
             <div class="col-md-4 text-left-md text-center">
-                <small>© 2021 velmolt. All rights reserved. </small>
+                <small>© 2022 velmolt.com All rights reserved. </small>
             </div>
             <div class="col-md-8 text-center text-right-md">
                 <div>
@@ -466,6 +471,9 @@ s0.parentNode.insertBefore(s1,s0);
 <script src="{{url('/')}}/asset/clone/java/aos.js"></script>
 <script src="{{url('/')}}/asset/clone/java/swiper.js"></script>
 
+{{-- <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="{{url('/')}}/asset/nova/js/plugins.js"></script>
+<script src="{{url('/')}}/asset/nova/imported-js.js"></script>
+<script src="{{url('/')}}/asset/nova/js/functions.js"></script> --}}
 
 <!--// 		var countDownDate = new Date("Nov 12, 2020 15:37:25").getTime();-->
 <!--// 		var x = setInterval(function () {-->

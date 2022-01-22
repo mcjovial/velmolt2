@@ -145,6 +145,7 @@
         
         </section>
 
+
         <section class="mb80 mt80">
             <div class="container-custom" id="sec-intro">
                 <div class="row justify-content-center">
@@ -213,6 +214,347 @@
                 </div>
             </div>
         </section>
+
+        {{-- <section style="height: 80vh_; min-height: 400px; object-fit: cover;" class="section-video text-light d-flex-center" data-bg-video="{{url('/')}}/asset/nova/site-images/vid.mp4">
+            <div class="html5vid video-loaded" id="video-rpptn"><video playsinline="" style="object-fit: cover;" autoplay loop muted="true" poster="{{url('/')}}/asset/nova/site-images/konsulting_bull_reverse.jpg" preload="auto"><source src="{{url('/')}}/asset/nova/site-images/bg-chc.mp4" type="video/mp4"></video></div>
+            <div class="bg-overlay yuwjw7jjjk" style="opacity: .5 !important; background-color: #112b77 !important;"></div>
+            <div class="container container-fullscreen">
+            <div class="text-middle text-center text-light">
+                <h1 class="text-uppercase text-lg headng_stef d-font-exempt" style=" font-size: 26px !important; margin-bottom: 0; color: #fff !important">VELMOLT INVESTMENTS</h1>
+                <p class="lead">
+                    <span style="font-size: 20px; font-weight: bold; color: #fdfcfb; text-transform: uppercase !important;">The Revolution In Cryptocurrency Investments Management <br>
+                    </span>
+                    <span class="d-sm-none_c" style="color: #fdfcfb">
+                        We offer an array of
+                        cryptocurrency investment products. Our primary focus has been on
+                        emerging and rapid growth markets with an emphasis on Bitcoin and
+                        other top performing crypto currencies.
+        
+                        <!-- We are proud to work to the
+                        highest ethical standards of Bitcoin mining and trading strategies.
+                        We are pleased to offer some of the most dynamic and high-performing
+                        trading strategies available.  -->
+        
+                        We are known to work to the
+                        highest ethical standards of Bitcoin mining and trading strategies.
+                        We are pleased to offer some of the most dynamic and high-performing
+                        cryptocurrency trading and investments services available.
+                    </span>
+        
+                </p>
+            <a href="{{route('register')}}" class="btn">Get Started</a>
+            </div>
+            </div>
+        </section>
+        
+        <section data-animate="fadeIn" style="padding-top: 25px !important; padding-bottom: 25px !important;">
+            <div class="container">
+            <h2 class="tup" style="font-size: 25px !important; font-weight: bold !important;">Our Partners:</h2>
+            <div class="row client-logos carousel-description-clients carousel-description-style ">
+            <div class="col-lg-4">
+            <div class="description">
+            <h2 class="tup" style="font-size: 18px !important;">$500M+ raised from world's leading investors</h2> <span style="font-size: 15px !important;">
+                Velmolt is one of the world’s largest and most secure cryptocurrency investments company with thousands of individuals and hundreds of comapnies around the world as investment account holders.
+            </span>
+            </div>
+            </div>
+            <div class="col-lg-8">
+            <div class="carousel dots-grey tyu6ytyujh" data-items="4" data-arrows="false">
+            <div>
+            <a href="#"><img alt="" src="{{url('/')}}/asset/nova/site-images/logos/coinone-1.svg"></a>
+            </div>
+            <div>
+            <a href="#"><img alt="" src="{{url('/')}}/asset/nova/site-images/logos/plasmapay-1.svg"></a>
+            </div>
+            <div>
+            <a href="#"><img alt="" src="{{url('/')}}/asset/nova/site-images/logos/bbva-2019.svg"></a>
+            </div>
+            <div>
+            <a href="#"><img alt="" src="{{url('/')}}/asset/nova/site-images/logos/montex-network-cryptocurrency-connecting.svg"></a>
+            </div>
+            <div>
+            <a href="#"><img alt="" src="{{url('/')}}/asset/nova/site-images/logos/zcash.svg"></a>
+            </div>
+            <div>
+            <a href="#"><img alt="" src="{{url('/')}}/asset/nova/site-images/logos/the-blockchain-group-tbg.svg"></a>
+            </div>
+            <div>
+            <a href="#"><img alt="" src="{{url('/')}}/asset/nova/site-images/logos/waves-6.svg"></a>
+            </div>
+            <div>
+            <a href="#"><img alt="" src="{{url('/')}}/asset/nova/site-images/logos/keep-solutions.svg"></a>
+            </div>
+            <div>
+            <a href="#"><img alt="" src="{{url('/')}}/asset/nova/site-images/logos/huobi-1.svg"></a>
+            </div>
+            <div>
+            <a href="#"><img alt="" src="{{url('/')}}/asset/nova/site-images/logos/ledger-new-logo-.svg"></a>
+            </div>
+            </div>
+             </div>
+            </div>
+            </div>
+        </section>
+        
+        
+        <section style="padding-top: 20px !important; padding-bottom: 15px !important;">
+            <div class="container" id="iframe-parent">
+                    <div style="height:649px; padding:0px; margin:0px; width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=full_v2&amp;theme=dark&amp;cnt=10&amp;pref_coin_id=1505&amp;graph=yes" width="100%" height="649px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe></div>
+        
+            </div>
+        
+        </section>
+        
+        <br>
+        
+        
+        <!-- section content begin -->
+        <!-- <div class="uk-section uk-section-default in-wave-15 in-offset-bottom-40 uk-background-contain uk-background-center-right uk-background-image@m" style="background-image: url(img/in-wave-background-3.png);">
+            <div class="uk-container">
+            <div class="uk-grid uk-flex uk-flex-middle">
+            <div class="uk-width-1-3@m">
+                <h2 class="tup hhhsuusjsj9wjkwmkkwuuuwu" style="font-size: 25px">Join over <span class="uk-text-primary">3 million</span> cryptocurrency investors over the world</h2>
+                <p>Sign up for your free investments account now.</p>
+                <a href="#" class="uk-button uk-button-primary uk-border-rounded uk-width-expand">Sign up</a>
+        
+            </div>
+            <div class="uk-width-expand@m uk-flex uk-flex-center in-margin-medium-top@s">
+                <img src="img/in-wave-mockup-4.png" alt="wave-mockup" width="292" height="286">
+            </div>
+            <div class="uk-width-auto@m uk-visible@m">
+                <a class="uk-flex uk-flex-middle uk-light in-wave-15-button" href="#">
+                    <h3>Learn more</h3>
+                    <i class="fas fa-chevron-right fa-lg uk-margin-left"></i>
+                </a>
+            </div>
+            </div>
+            </div>
+        </div> -->
+        
+        
+        <style>
+            .yuwnk7826stef img{
+                height: 420px !important;
+                object-fit: cover !important;
+            }
+        </style>
+        
+        <section class="pftb background-grey">
+            <div class="container">
+            <div class="row">
+            <div class="col-lg-6 m-b-30" data-animate="fadeInLeft">
+            <div class="carousel yuwnk7826stef" data-items="1">
+            <a href="{{url('/')}}/asset/nova/site-images/WhatWeDoPeople2x.jpg" data-lightbox="gallery-image" title="Your image title here!"><img src="{{url('/')}}/asset/nova/site-images/WhatWeDoPeople2x.jpg" alt=""></a>
+            <a href="{{url('/')}}/asset/nova/site-images/BMO_CS_TradingFloor.jpg" data-lightbox="gallery-image" title="Your image title here!"><img src="{{url('/')}}/asset/nova/site-images/BMO_CS_TradingFloor.jpg" alt=""></a>
+        
+            <a href="{{url('/')}}/asset/nova/site-images/team1.jpg" data-lightbox="gallery-image" title="Your image title here!"><img src="{{url('/')}}/asset/nova/site-images/team1.jpg" alt=""></a>
+            <a href="{{url('/')}}/asset/nova/site-images/team2.jpg" data-lightbox="gallery-image" title="Your image title here!"><img src="{{url('/')}}/asset/nova/site-images/team2.jpg" alt=""></a>
+            <a href="{{url('/')}}/asset/nova/site-images/team3.jpg" data-lightbox="gallery-image" title="Your image title here!"><img src="{{url('/')}}/asset/nova/site-images/team3.jpg" alt=""></a>
+        
+            <a href="{{url('/')}}/asset/nova/site-images/stock-trading.jpg" data-lightbox="gallery-image" title="Your image title here!"><img src="{{url('/')}}/asset/nova/site-images/stock-trading.jpg" alt=""></a>
+            </div>
+            </div>
+            <div class="col-lg-6 p-l-40 p-r-40" data-animate="fadeInRight">
+            <div class="m-b-40 f15">
+            <h2 class="tup">VELMOLT INVESTMENTS</h2>
+            <p>We offer our investors access to high-growth investment opportunities in the Bitcoin markets through the utility of state-of-the-art technical facilities and the implementation of industry standard cryptocurrency trading strategies.</p>
+            <p> We’re proud to be an asset management company whose culture is driven by strong values and a long-term vision. At Velmolt Investments, our vision, mission and core values serve as the catalyst in our relations with our clients, employees, shareholders and in the communities in which we live and work. They are our guiding compass in our business each day.</p>
+            </div>
+            <a class="btn" href="{{route('about')}}"><span>Learn more</span></a>
+            </div>
+            </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        <style>
+            .uue73uw_uq818 a:not(.btn):not(.badge):hover{
+                color: #fff !important;
+            }
+        
+            .uue73uw_uq818 a{
+                text-transform: uppercase !important;
+            }
+        
+            .uue73uw_uq818 .fa-lg{
+                font-size: 2.1em !important;
+            }
+        </style>
+        
+        <section>
+            <div data-animate="fadeIn" class="uk-section uk-section-muted uk-padding-large uk-background-cover uk-background-center-center" style="background-image: url({{url('/')}}/asset/nova/img/in-wave-background-3.jpg);">
+                <div class="uk-container in-wave-7">
+                    <div class="uk-grid uk-flex uk-flex-center">
+                        <div class="uk-width-3-4@m">
+                            <h4 class="uk-text-primary uk-margin-remove-bottom">Invest with confidence</h4>
+                            <h1 class="uk-margin-small-top uk-margin-remove-bottom">New level of capital <span class="in-highlight">security</span></h1>
+                            <div class="uk-grid-divider uk-child-width-1-2@s uk-child-width-1-2@m uk-margin-medium-top uk-grid" data-uk-grid="">
+                
+                                <div class="uk-first-column ujwsu8k_stef37hjh">
+                                    <img class="uk-margin-remove-bottom" style="width: 200px" src="{{url('/')}}/asset/nova/img/undraw_safe_bnk7.svg" alt="wave-icon" width="64">
+                                    <h3 class="uk-margin-small-top tup" style="font-size: 23px">Velmolt is secured</h3>
+                                    <p>Guaranted protection. When we say that you are secured we really mean it. We have built one of the world most sophisticated security system that have never been compromised. Members records are kept confidential from third parties.</p>
+                                </div>
+                
+                                <div>
+                                    <img class="uk-margin-remove-bottom" style="width: 200px" src="{{url('/')}}/asset/nova/img/undraw_business_deal_cpi9.svg" alt="wave-icon" width="64">
+                                    <h3 class="uk-margin-small-top tup" style="font-size: 20px">Fully regulated &amp; invested funds are protected by insurance </h3>
+                                    <p>Our company is fully regulated by the FCA and CySec and your funds are, additionally, covered by our insurance policy so you don't have to worry about losing your invested capital.
+                                    </p>
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        
+        
+        <style>
+            .crypto-logos img{
+                height: 70px;
+            }
+        </style>
+        
+        <section>
+            <div data-animate="fadeIn" class="uk-section">
+                <div class="uk-container">
+                    <div class="uk-grid">
+                        <div class="uk-width-1-1">
+                            <div class="uk-card uk-card-secondary">
+                                <div class="uk-card-body">
+                                    <style>
+                                        .uejje7893hh38 .uk-width-expand p{
+                                            font-size: 14px !important;
+                                        }
+            
+                                        .uejje7893hh38 .in-icon-wrapper.small.theme-color{
+                                            font-size: 16px;
+                                        }
+                                    </style>
+                                    <div class="uk-grid uk-child-width-1-1 uk-child-width-1-3@m uejje7893hh38" data-uk-grid="">
+                                        <div class="uk-first-column">
+                                            <div class="uk-grid uk-grid-small">
+                                                <div class="uk-width-auto">
+                                                    <div class="in-icon-wrapper small theme-color"> 1 </div>
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <h3 class="uk-margin-remove-bottom">Register</h3>
+                                                    <p class="uk-margin-small-top uk-margin-remove-bottom">To get started, you need to create a new Velmolt Account. <br> Fill in the required infomrmation on the "create account" page to create your free Velmolt investment account.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-grid uk-grid-small">
+                                                <div class="uk-width-auto">
+                                                    <div class="in-icon-wrapper small theme-color"> 2 </div>
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <h3 class="uk-margin-remove-bottom">Fund</h3>
+                                                    <p class="uk-margin-small-top uk-margin-remove-bottom">Before you can purchase an investment plan and commence investing you will need to fund your account. <br> You can fund your investment account using either Bitcoin, Ethereum or Bitcoin Cash.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-grid uk-grid-small">
+                                                <div class="uk-width-auto">
+                                                    <div class="in-icon-wrapper small theme-color"> 3 </div>
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <h3 class="uk-margin-remove-bottom">Earn</h3>
+                                                    <p class="uk-margin-small-top uk-margin-remove-bottom">After you have made an investment, you can sit back and watch your balance grow daily while our traders manage your risks for you. <br> You can withdraw your earnings (ROI) when they mature.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="uk-width-1-1 ryr93k3k monee-payment-list uk-margin-medium-top uk-grid-margin uk-first-column">
+                                            <hr>
+                                            <div class="uk-grid-divider crypto-logos uk-child-width-1-6@m uk-child-width-1-2@s uk-grid"
+                                                data-uk-grid="">
+                                                <div class="uk-first-column"> <img class="uk-align-center btc-crypto-logo"
+                                                        src="{{url('/')}}/asset/nova/site-images/crypto-logos/bitcoin-logo.svg"
+                                                        data-src="{{url('/')}}/asset/nova/img/monee-payment-mastercard.svg" alt="monee-mastercard"
+                                                        width="103" height="32" data-uk-img=""> </div>
+                                                <div> <img class="uk-align-center" style="width: 100% !important; height: 100px !important"
+                                                        src="{{url('/')}}/asset/nova/site-images/crypto-logos/ethereum.svg"
+                                                        data-src="{{url('/')}}/asset/nova/img/monee-payment-visa.svg" alt="monee-visa" width="103"
+                                                        height="32" data-uk-img=""> </div>
+                                                <div> <img class="uk-align-center"
+                                                        src="{{url('/')}}/asset/nova/site-images/crypto-logos/ripple.svg"
+                                                        data-src="{{url('/')}}/asset/nova/img/monee-payment-paypal.svg" alt="monee-paypal" width="103"
+                                                        height="32" data-uk-img=""> </div>
+                                                <div> <img class="uk-align-center"
+                                                        src="{{url('/')}}/asset/nova/site-images/crypto-logos/aricoin.svg"
+                                                        data-src="{{url('/')}}/asset/nova/img/monee-payment-skrill.svg" alt="monee-skrill" width="103"
+                                                        height="32" data-uk-img=""> </div>
+                                                <div class="uk-visible@m"> <img class="uk-align-center"
+                                                        src="{{url('/')}}/asset/nova/site-images/crypto-logos/libra-2.svg"
+                                                        data-src="{{url('/')}}/asset/nova/img/monee-payment-neteller.svg" alt="monee-neteller" width="103"
+                                                        height="32" data-uk-img=""> </div>
+                                                <div class="uk-visible@m"> <img class="uk-align-center"
+                                                        src="{{url('/')}}/asset/nova/site-images/crypto-logos/husd-3.svg"
+                                                        data-src="{{url('/')}}/asset/nova/img/monee-payment-unionpay.svg" alt="monee-unionpay" width="103"
+                                                        height="32" data-uk-img=""> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <style>
+            .testimonial-item p{
+                font-size: 14px !important;
+            }
+        </style>
+        <section data-animate="fadeIn" style="padding-top: 35px; padding-bottom: 40px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12">
+                    <h2 class="tup" style="font-size: 23px;">What our investors are saying about us</h2>
+                    <p class="lead" style="font-size: 15px">We use the reviews of our investors as the yard stick to measure how well or otherwise we are doing in the dispensation of our services to our investors all over the world. <br> We are always happy to share the positive reviews of our investors and improve on the areas we have been found wanting.</p>
+                    </div>
+                    <div class="col-lg-7">
+                    <div class="carousel arrows-visibile testimonial testimonial-single testimonial-left" data-items="1" data-animate-in="fadeIn" data-animate-out="fadeOut" data-arrows="false">
+                    
+                    <div class="testimonial-item">
+                    <img src="{{url('/')}}/asset/nova/img/reviewer2.jpg" alt="">
+                    <p>I've had incredible customer service since I started investing here, I'm a repeat investor. I've been investng with Velmolt Investments for nearly 3 years now and i've loved every bit of the experience so far.</p>
+                    <span>Ron DiCicco</span>
+                    <span>Florida, United States</span>
+                    </div>
+                    
+                    
+                    <div class="testimonial-item">
+                    <img src="{{url('/')}}/asset/nova/img/reviewer3.jpg" alt="">
+                    <p>Transparent, profitable, and reliable bitcoin investment company that will make you real money. Thanks to all of you at Velmolt Investments for the excellent service.  </p>
+                    <span>Diane Podmanik</span>
+                    <span>Budapest, Hungary</span>
+                    </div>
+                    
+                    
+                    <div class="testimonial-item">
+                    <img src="{{url('/')}}/asset/nova/img/reviewer5.jpg" alt="">
+                    <p>I have always been searching for an opportunity to earn on bitcoin and finally I found Velmolt investments and they have proven to be very reliable since I've been investing with them.</p>
+                    <span>Joe Tantillo</span>
+                    <span>Prague, Czech Republic</span>
+                    </div>
+                    
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+         --}}
 
         {{-- <section style="position: relative">
             <div class="container">

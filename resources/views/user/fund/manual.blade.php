@@ -5,6 +5,23 @@
 <div class="container-fluid mt--6">
   <div class="content-wrapper">
     <div class="row">
+      <div class="col-md-4">
+        <div class="card" >
+          <div class="card-body text-center">
+            <div class="">
+              <div>
+                <h3 class="card-title mb-3 text-dark">{{__('Wallet Details')}}</h3>
+                <ul class="list list-unstyled mb-0 card-text text-sm text-dark">
+                  <li>{{__('Coin')}}: {{$gate->name}}</li>
+                  <li>{{__('Wallet')}}: {{$gate->wallet}}</li>
+                  <li>{{__('Wallet ID')}}: {{$gate->wallet_id}} <button type="button" class="btn-icon-clipboard" data-clipboard-text="{{$gate->wallet_id}}" title="Copy"> {{__('Copy')}}</button></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="col-md-8">
         <div class="card" >
           <div class="card-header">
@@ -51,23 +68,6 @@
               </div>
             </div>
           </form>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card" >
-          <div class="card-body text-center">
-            <div class="">
-              <div>
-                <h3 class="card-title mb-3 text-dark">{{__('Wallet Details')}}</h3>
-                <ul class="list list-unstyled mb-0 card-text text-sm text-dark">
-                  <li>{{__('Coin')}}: {{$gate->name}}</li>
-                  <li>{{__('Wallet')}}: {{$gate->wallet}}</li>
-                  <li>{{__('Wallet ID')}}: {{$gate->wallet_id}} <button type="button" class="btn-icon-clipboard" data-clipboard-text="{{$gate->wallet_id}}" title="Copy"> {{__('Copy')}}</button></li>
-                  
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </div>
