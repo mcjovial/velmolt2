@@ -875,7 +875,7 @@ class UserController extends Controller
     public function plans()
     {
         $data['title']='Investment Plans';
-        $data['plan']=Plans::whereStatus(1)->orderBy('min_deposit', 'DESC')->paginate(3);
+        $data['plan']=Plans::whereStatus(1)->orderBy('amount', 'ASC')->paginate(3);
         $data['datetime']=Carbon::now();
         return view('user.trading.plans', $data);
     }  
