@@ -93,7 +93,7 @@
                       </div>
                     </div>
                   </div>
-                  <p class="card-text text-xs @if($val->popular==1) text-white @else text-gray @endif">{{__('Here a quick summary; Money invested')}} {{$amount.$currency->name}}, {{__('ROI will be')}} {{$interest}}, {{__('Compound Interest will amount to')}} 
+                  <p class="card-text text-xs @if($val->popular==1) text-white @else text-gray @endif">{{__('Here a quick summary; Money invested')}} {{$amount.$currency->name}}, {{__('Compound Interest will amount to')}} 
                   {{$compound}} {{__('after')}} {{$val->duration.' '.$val->period}}@if($val->duration>1)s @endif. @if($val->bonus!==null) {{__('You will receive')}} {{$val->bonus}}% {{__('of Compound Interest as Bonus')}} @endif
                   </p>
                 </div>
