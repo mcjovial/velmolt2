@@ -43,14 +43,14 @@
                     <div class="col-6">
                       <p class="text-sm text-gray mb-0 text-uppercase">{{$val->plan->name}} {{__('Plan')}} {{$val->duration}}(s)</p>
                       <p class="text-sm text-dark mb-0 text-uppercase">{{date("M j, Y", strtotime($val->date))}} - {{date("M j, Y", strtotime($val->end_date))}}</p>
-                      <p class="text-sm text-dark mb-2 text-uppercase">{{__('Invested')}} {{$val->amount.$currency->name}} @ {{$val->plan->percent}}% {{__('Daily')}}</p>
+                      <p class="text-sm text-dark mb-2 text-uppercase">{{__('Invested')}} {{round($val->amount, 1).$currency->name}} @ {{$val->plan->percent}}% {{__('Daily')}}</p>
                       <h4 class="mb-1 h2" style="color: {{$set->s_c}};">{{$val->profit.$currency->name}}</h4>
                       <h5 class="h4 mb-0 text-dark text-uppercase">{{__('Current Progress')}}</h5>
                     </div>
                     <div class="col-6 text-right">
                       <h4 class="mb-1 h2 text-dark er">GOAL {{$goal.$currency->name}}</h4>
-                      <p class="text-sm text-dark mb-0 text-uppercase">{{__('ROI')}} - {{$profit.$currency->name}}</p>
-                      @if($val->plan->bonus!=null)<p class="text-sm text-dark mb-0 text-uppercase">{{__('Bonus')}} - {{$bonus.$currency->name}}</p>@endif
+                      <p class="text-sm text-dark mb-0 text-uppercase">{{__('ROI')}} - {{round($profit, 1).$currency->name}}</p>
+                      @if($val->plan->bonus!=null)<p class="text-sm text-dark mb-0 text-uppercase">{{__('Bonus')}} - {{round($bonus, 1).$currency->name}}</p>@endif
                     </div>
                   </div>
                   <div class="row align-items-center mb-3">
