@@ -1144,7 +1144,7 @@
             </div>
         </section> --}}
 
-        {{-- <section class="testimonial-bg">
+        <section class="testimonial-bg">
             <div class="testimonial pt100 pb100" id="reviews">
                 <div class="container">
                     <div class="row justify-content-center">
@@ -1177,11 +1177,7 @@
                                             <!--    </p>-->
                                             <!--</video-js>-->
                                             
-                                            <video width="100%" height="100%" controls>
-                                                <source src="videosw/testmon3.mp4" type="video/mp4">
-                                                <!--<source src="movie.ogg" type="video/ogg">-->
-                                                Your browser does not support the video tag.
-                                            </video> 
+                                            <p>I've had incredible customer service since I started investing here, I'm a repeat investor. I've been investng with Velmolt Investments for nearly 3 years now and i've loved every bit of the experience so far.</p> 
                                             
                                             <div class="testimonial__text text-center pt10">
                                                 <div class="client-name">Amelia Anderson.. <i class="ti-crown"></i></div>
@@ -1203,11 +1199,13 @@
                                             <!--    </p>-->
                                             <!--</video-js>-->
                                             
-                                            <video width="100%" height="100%" controls>
+                                            {{-- <video width="100%" height="100%" controls>
                                                 <source src="videosw/testmon2.webm" type="video/mp4">
                                                 <!--<source src="movie.ogg" type="video/ogg">-->
                                                 Your browser does not support the video tag.
-                                            </video>
+                                            </video> --}}
+
+                                            <p>I have been an investor at Velmolt the past few years. They have been great to work with and offer a good ROI (return of investment). As an investment banker for over 45 years, recently retired, I am a tough grader but this company met and surpassed my expectations. They are a reliable source to preserve principal and get a steady stream of income. Velmolt has always been professional and effective at meeting my financial needs.</p>
                                             
                                             <div class="testimonial__text text-center pt10">
                                                 <div class="client-name">Harald Dammen.. <i class="ti-crown"></i></div>
@@ -1229,11 +1227,45 @@
                                             <!--    </p>-->
                                             <!--</video-js>-->
                                             
-                                            <video width="100%" height="100%" controls>
+                                            {{-- <video width="100%" height="100%" controls>
                                                 <source src="videosw/testmon1.webm" type="video/mp4">
                                                 <!--<source src="movie.ogg" type="video/ogg">-->
                                                 Your browser does not support the video tag.
-                                            </video>
+                                            </video> --}}
+
+                                            <p>The Successful expansion of our business was made possible by velmolt. We
+                                                were able to achieve this through compounding our profits over a period of Six
+                                                Months. It was the best decision we made in 2017, and perhaps even in the history of our company. They offered great assistance
+                                                and support throughout the process. JOIN Them today and they might just
+                                                change your story!</p>
+                                            
+                                            <div class="testimonial__text text-center pt10">
+                                                <div class="client-name">Zhang Li Yáng.. <i class="ti-crown"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-6">
+                                            <!-- <video-js id="my-testimon3" data-setup='{"fluid": true}' class="video-js vjs-theme-city vjs-big-play-centered">-->
+                                            <!--    <source src="/videosw/testmon1.webm" type="video/webm">-->
+                                            <!--    <source src="/videosw/testmon1.webm" type="video/webm">-->
+                                            
+                                            <!--    <p class="vjs-no-js">-->
+                                            <!--        To view this video please enable JavaScript, and consider upgrading to a-->
+                                            <!--        web browser that supports HTML5 video-->
+                                            <!--    </p>-->
+                                            <!--</video-js>-->
+                                            
+                                            {{-- <video width="100%" height="100%" controls>
+                                                <source src="videosw/testmon1.webm" type="video/mp4">
+                                                <!--<source src="movie.ogg" type="video/ogg">-->
+                                                Your browser does not support the video tag.
+                                            </video> --}}
+
+                                            <p>Transparent, profitable, and reliable bitcoin investment company that will make you real money. Thanks to all of you at Velmolt Investments for the excellent service.  </p>
                                             
                                             <div class="testimonial__text text-center pt10">
                                                 <div class="client-name">Zhang Li Yáng.. <i class="ti-crown"></i></div>
@@ -1242,31 +1274,31 @@
                                     </div>
                                 </div>
                                 
-                                <!--<div class="swiper-slide">-->
-                                <!--    <div class="testimonial__client text-center pb30">-->
-                                <!--        <div>-->
-                                <!--            <img src="/img/testi/5.jpg" alt="client 1">-->
-                                <!--            <div class="client__rating">99</div>-->
-                                <!--        </div>-->
-                                <!--    </div>-->
+                                {{-- <div class="swiper-slide">
+                                    <div class="testimonial__client text-center pb30">
+                                        <div>
+                                            <img src="/img/testi/5.jpg" alt="client 1">
+                                            <div class="client__rating">99</div>
+                                        </div>
+                                    </div>
         
-                                <!--    <div class="testimonial__text text-center">-->
-                                <!--        <div class="mb10">-->
-                                <!--            <p>-->
+                                    <div class="testimonial__text text-center">
+                                        <div class="mb10">
+                                            <p>
                                                 
-                                <!--                The Successful expansion of our business was made possible by velmolt. We-->
-                                <!--                were able to achieve this through compounding our profits over a period of Six-->
-                                <!--                Months. It was the best decision we made in 2017, and perhaps even in the history of our company. They offered great assistance-->
-                                <!--                and support throughout the process. JOIN Them today and they might just-->
-                                <!--                change your story!-->
+                                                The Successful expansion of our business was made possible by velmolt. We
+                                                were able to achieve this through compounding our profits over a period of Six
+                                                Months. It was the best decision we made in 2017, and perhaps even in the history of our company. They offered great assistance
+                                                and support throughout the process. JOIN Them today and they might just
+                                                change your story!
 
 
                                                     
-                                <!--            </p>-->
-                                <!--        </div>-->
-                                <!--        <div class="client-name">Michelle Shirley.. <i class="ti-crown"></i></div>-->
-                                <!--    </div>-->
-                                <!--</div>-->
+                                            </p>
+                                        </div>
+                                        <div class="client-name">Michelle Shirley.. <i class="ti-crown"></i></div>
+                                    </div>
+                                </div> --}}
                             </div>
 
                             <div class="swiper-control-left">
@@ -1280,7 +1312,7 @@
                     </div>
                 </div>
             </div>
-        </section> --}}
+        </section>
 
         <section class="pb100" style="background-color: #fafbfb">
             <div class="embrace">
