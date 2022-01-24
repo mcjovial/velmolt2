@@ -133,7 +133,7 @@
             
                     <div class="col-md-6 p0">
                         <div class="text-center">
-                            <video src="//videos.ctfassets.net/vkizfq3pbtzc/OahpaQJX1xuWlFmiLRQMY/3bb543ca66ddf47c734e377a0336fa65/28Apr21_CoinExplode.mp4" autoplay="autoplay" playsinline="" muted="muted" preload="none" height="600" width="" class=""></video>
+                            <video src="//videos.ctfassets.net/vkizfq3pbtzc/OahpaQJX1xuWlFmiLRQMY/3bb543ca66ddf47c734e377a0336fa65/28Apr21_CoinExplode.mp4" autoplay playsinline="" muted="muted" preload="none" height="600" width="" class="" loop></video>
                             <!-- <img src="assets/img/hellit.jpg" data-aos="fade-left"> --> 
                         </div>
                     </div>
@@ -1240,7 +1240,7 @@
                                                 change your story!</p>
                                             
                                             <div class="testimonial__text text-center pt10">
-                                                <div class="client-name">Zhang Li Yáng.. <i class="ti-crown"></i></div>
+                                                <div class="client-name">James McHarvey.. <i class="ti-crown"></i></div>
                                             </div>
                                         </div>
                                     </div>
