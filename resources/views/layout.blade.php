@@ -420,7 +420,7 @@ s0.parentNode.insertBefore(s1,s0);
 <!--End of Tawk.to Script-->
 
 <script src="{{url('/')}}/asset/clone/java/jquery.min.js"></script>
-<script src="../cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+<script src="{{url('/')}}/asset/clone/libs/jquery.form/3.51/jquery.form.min.js"></script>
 <script src="{{url('/')}}/asset/clone/java/popper.js"></script>
 <script src="{{url('/')}}/asset/clone/java/bootstrap.min.js"></script>
 <script src="{{url('/')}}/asset/clone/java/waypoints.min.js"></script>
@@ -460,7 +460,7 @@ s0.parentNode.insertBefore(s1,s0);
     new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true}, 'google_translate_element');
   }
 </script>
-<script type="text/javascript" src="../translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript" src="{{url('/')}}/asset/clone/translate_a/elementa0d8.js?cb=googleTranslateElementInit"></script>
 <script>
     function trans(lang){
       window.location = lang;
