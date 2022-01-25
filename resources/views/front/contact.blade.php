@@ -422,7 +422,7 @@
 
                         <div class="locate__text text-center">
                             <p>support email</p>
-                            <p>support@tradeworth.org</p>
+                            <p>support@velmolt.com</p>
                         </div>
 
                         <div class="locate__text text-center">

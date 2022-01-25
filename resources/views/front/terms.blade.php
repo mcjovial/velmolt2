@@ -44,7 +44,7 @@
                     <div class="terms">
                         <div class="terms__heading">
                             <p class="mb30">
-                                <a href="{{url('/')}}/asset/clone/files/tradeworth-legal-ver101.pdf" download="Velmolt Terms & condition">Download Terms & Conditions PDF &nbsp;&nbsp; <i class="ti-save"></i></a>
+                                <a href="{{url('/')}}/asset/clone/files/velmolt-legal-ver101.pdf" download="Velmolt Terms & condition">Download Terms & Conditions PDF &nbsp;&nbsp; <i class="ti-save"></i></a>
                             </p>
                             <h3 class="mb10">Velmolt Services User Agreement</h3>
                             <p>
@@ -91,7 +91,7 @@
                                 Representative must be your parent or legal guardian. If you are a legal entity that is owned, directly or indirectly,
                                 by an individual who is not at least 18 years old, but the individual is 16 years old or older, your Representative
                                 must either obtain the consent of your board or of an authorized officer. Any such approving board, authorized officer,
-                                parent, or legal guardian is responsible to TradeWorth and is legally bound to this Agreement as if it had agreed to
+                                parent, or legal guardian is responsible to Velmolt and is legally bound to this Agreement as if it had agreed to
                                 the terms of this Agreement itself. **You may not use the Services if you are under 16 years of age. **
                             </p>
                             <p><i>Modification.</i></p>
@@ -155,7 +155,7 @@
                             </p>
                             <p>
                                 All content present on the Site includes text, code, graphics, logos, images, compilation, software used on the Site
-                                (hereinafter and hereinbefore the ``Content``). The Content is the property of TradeWorth or its contractors and
+                                (hereinafter and hereinbefore the ``Content``). The Content is the property of Velmolt or its contractors and
                                 protected by intellectual property laws that protect such rights. You agree to use all copyright and other proprietary
                                 notices or restrictions contained in the Content and you are prohibited from changing the Content.
                             </p>
@@ -283,7 +283,7 @@
 
                             <p>
                                 If You have any questions or complaints about this Terms and Conditions and our Privacy Policy, You may <a href="../contact.html">contact us</a> or by writing to
-                                <a href="mailto:support@tradeworth.org">support@tradeworth.org</a>
+                                <a href="mailto:support@velmolt.com">support@velmolt.com</a>
                             </p>
 
                         </div>
@@ -359,7 +359,7 @@ s0.parentNode.insertBefore(s1,s0);
 <!-- Custom js -->
 </body>
 
-<!-- Mirrored from www.tradeworth.org/legal/terms by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jan 2022 10:45:21 GMT -->
+<!-- Mirrored from www.velmolt.com/legal/terms by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jan 2022 10:45:21 GMT -->
 </html>
 
 <script src="{{url('/')}}/asset/clone/java/terms.js"></script>
