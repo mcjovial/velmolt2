@@ -1359,7 +1359,7 @@
                                 </div>
                                 <div>
                                     <span>E-Mail</span>
-                                    <p>support@velmolt.com</p>
+                                    <p>{{$set->email}}</p>
                                 </div>
                             </div>
                         </div>
@@ -1370,7 +1370,7 @@
                                 </div>
                                 <div>
                                     <span>Contact Us</span>
-                                    <p>+1 917-985-7247</p>
+                                    <p>{{$set->mobile}}</p>
                                 </div>
                             </div>
                         </div>
