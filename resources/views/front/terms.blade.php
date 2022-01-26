@@ -43,12 +43,12 @@
                 <div class="col-lg-12">
                     <div class="terms">
                         <div class="terms__heading">
-                            <p class="mb30">
+                            {{-- <p class="mb30">
                                 <a href="{{url('/')}}/asset/clone/files/velmolt-legal-ver101.pdf" download="Velmolt Terms & condition">Download Terms & Conditions PDF &nbsp;&nbsp; <i class="ti-save"></i></a>
-                            </p>
+                            </p> --}}
                             <h3 class="mb10">Velmolt Services User Agreement</h3>
                             <p>
-                                Last Updated: November 9 2018.
+                                Last Updated: November 9 2021.
                             </p>
                         </div>
 
@@ -282,7 +282,7 @@
                             <h4>CONTACT US</h4>
 
                             <p>
-                                If You have any questions or complaints about this Terms and Conditions and our Privacy Policy, You may <a href="../contact.html">contact us</a> or by writing to
+                                If You have any questions or complaints about this Terms and Conditions and our Privacy Policy, You may <a href="../{{route('contact')}}">contact us</a> or by writing to
                                 <a href="mailto:support@velmolt.com">support@velmolt.com</a>
                             </p>
 

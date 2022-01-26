@@ -362,7 +362,7 @@
                                         </div>
                                         <div class="col-md-3">
                                             <div class="text-right-md text-center">
-                                                <a class="btn__normal roll--text gray mt15" data-text=" support" href="contact.html">support</a>
+                                                <a class="btn__normal roll--text gray mt15" data-text=" support" href="{{route('contact')}}">support</a>
                                             </div>
                                         </div>
                                     </div>

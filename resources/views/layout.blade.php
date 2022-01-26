@@ -338,16 +338,18 @@
             <div class="col-md-3">
                 <div class="footer__logo widthper text-left-md">
                     <img src="{{url('/')}}/asset/{{$logo->image_link}}" alt="velmolt's Logo">
-                    <p>We are a professional and trusted wealth management company with specializations in Wealth Creation and Digital Assets.</p>
-                    <p style="line-height: 1.5;margin-bottom: .8rem;"><i class="ti-world"></i>&nbsp; 1166 6th Ave, New York, NY 10036, United States.</p>
-                    <p style="line-height: 1.5;margin-bottom: .8rem;"><i class="ti-mobile"></i>&nbsp; +1 (917)-985-7247</p>
-                    <p style="line-height: 1.5;margin-bottom: .8rem;"><i class="ti-email"></i>&nbsp; support@velmolt.com</p>
-                    <a href="https://www.instagram.com/velmolt.investments"><i class="ti-instagram"></i>
-                        <span style="color: inherit;font-size: 14px;color: #ccc;font-weight: 600;">&nbsp;Instagram</span>
-                    </a>
-                    <!--<a href="mailto:support@velmolt.com">| support@velmolt.com</a>-->
-                    <!--<a href="https://www.instagram.com/velmolt.investments"><i class="ti-facebook"></i></a>-->
-                    <!--<a href="https://www.instagram.com/velmolt.investments"><i class="ti-youtube"></i></a>-->
+                    <p>{{$set->site_desc}}</p>
+                    @if($set->contact==1)
+                        <p style="line-height: 1.5;margin-bottom: .8rem;"><i class="ti-world"></i>&nbsp; {{$set->address}}</p>
+                        <p style="line-height: 1.5;margin-bottom: .8rem;"><i class="ti-mobile"></i>&nbsp; {{$set->mobile}}</p>
+                        <p style="line-height: 1.5;margin-bottom: .8rem;"><i class="ti-email"></i>&nbsp; {{$set->email}}</p>
+                        <a href="https://www.instagram.com/velmolt"><i class="ti-instagram"></i>
+                            <span style="color: inherit;font-size: 14px;color: #ccc;font-weight: 600;">&nbsp;Instagram</span>
+                        </a>
+                        <!--<a href="mailto:support@velmolt.com">| support@velmolt.com</a>-->
+                        <!--<a href="https://www.instagram.com/velmolt.investments"><i class="ti-facebook"></i></a>-->
+                        <!--<a href="https://www.instagram.com/velmolt.investments"><i class="ti-youtube"></i></a>-->
+                    @endif
                 </div>
             </div>
             <div class="col-md-3 ">
@@ -379,7 +381,9 @@
                     <h3>Services</h3>
                     <a href="{{route('register')}}">Register</a>
                     <a href="{{route('login')}}">Login</a>
-                    <a href="{{route('faq')}}">Faq</a>
+                    @if(count($faq)>0)
+                        <a href="{{route('faq')}}">Faq</a>
+                    @endif
                     {{-- <a href="bug-bounty.html">Bug bounty</a> --}}
                     <!--<a href="/black-friday-contracts">Black Friday</a>-->
                     {{-- <a href="referral-program.html">Affiliate Program</a> --}}
@@ -391,7 +395,7 @@
                 <hr class="my-0">
             </div>
             <div class="col-md-4 text-left-md text-center">
-                <small>© 2022 velmolt.com All rights reserved. </small>
+                <small>{{$set->site_name}}  &copy; {{date('Y')}}. {{__('All Rights Reserved.')}}</small>
             </div>
             <div class="col-md-8 text-center text-right-md">
                 <div>

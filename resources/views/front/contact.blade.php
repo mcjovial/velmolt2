@@ -416,18 +416,18 @@
                         <div class="locate__text text-center">
                             <p>company address</p>
                             
-                            <p>1166 6th Ave, New York, NY 10036, United States</p>
+                            <p>{{$set->address}}</p>
                             <!--<p>56 Elizabeth St belgravia, London. United kingdom</p>-->
                         </div>
 
                         <div class="locate__text text-center">
                             <p>support email</p>
-                            <p>support@velmolt.com</p>
+                            <p>{{$set->email}}</p>
                         </div>
 
                         <div class="locate__text text-center">
                             <p>company phone</p>
-                            <p>+1 917-985-7247, +1 917 900 3056</p>
+                            <p>{{$set->mobile}}</p>
                         </div>
 
                     </div>
