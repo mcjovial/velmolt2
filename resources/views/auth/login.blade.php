@@ -36,7 +36,7 @@
                         <div class="row align-items-center">
                             <div class="col-6 text-left">
                                 <div class="header__img">
-                                    <a href="{{route('home')}}"><img src="{{url('/')}}/asset/{{$logo->image_link2}}" alt=""></a>
+                                    <a href="{{route('home')}}"><img src="{{url('/')}}/asset/{{$logo->image_link2}}" alt="Velmolt" width="150"></a>
                                 </div>
                             </div>
                             <div class="col-6 text-right">

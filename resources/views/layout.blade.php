@@ -231,7 +231,7 @@
 
 <div class="logo-resp">
     <div class="logo__img">
-        <img src="{{url('/')}}/asset/{{$logo->image_link}}" class="last" alt="Trade">
+        <img src="{{url('/')}}/asset/{{$logo->image_link}}" class="last" alt="Velmolt" width="200">
     </div>
 </div>
 
@@ -337,7 +337,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="footer__logo widthper text-left-md">
-                    <img src="{{url('/')}}/asset/{{$logo->image_link}}" alt="velmolt's Logo">
+                    <img src="{{url('/')}}/asset/{{$logo->image_link}}" alt="velmolt's Logo" width="150">
                     <p>{{$set->site_desc}}</p>
                     @if($set->contact==1)
                         <p style="line-height: 1.5;margin-bottom: .8rem;"><i class="ti-world"></i>&nbsp; {{$set->address}}</p>
