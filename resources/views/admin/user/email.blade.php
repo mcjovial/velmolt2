@@ -31,7 +31,7 @@
                 <div class="form-group row">
                     <label class="col-form-label col-lg-2">{{__('Message')}}:</label>
                     <div class="col-lg-10">
-                        <textarea type="text" name="message" rows="4" class="form-control" required></textarea>
+                        <textarea type="text" name="message" rows="4" class="tinymce form-control" required></textarea>
                     </div>
                 </div>          
                 <div class="text-right">
