@@ -33,7 +33,8 @@
                     <div class="col-lg-10">
                         <textarea type="text" name="message" rows="4" class="tinymce form-control" required></textarea>
                     </div>
-                </div>          
+                </div>      
+                <br>    
                 <div class="text-right">
                     <button type="submit" class="btn btn-success btn-sm">{{__('Send')}}</button>
                 </div>
