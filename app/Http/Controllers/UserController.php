@@ -879,6 +879,7 @@ class UserController extends Controller
         $data['datetime']=Carbon::now();
         return view('user.trading.plans', $data);
     }  
+
     public function check_plan(Request $request)
     {
         $data['plan']=$plan=Plans::Where('id',$request->plan)->first();
@@ -904,6 +905,7 @@ class UserController extends Controller
         $data['title']='Plan Preview';
         return view('user.trading.preview', $data);
     }
+
     public function buy(Request $request)
     {
         $plan=$data['plan']=Plans::Where('id',$request->plan)->first();
@@ -998,8 +1000,12 @@ class UserController extends Controller
                         }
                     }
                     if($set['email_notify']==1){
+                        send_email($set->email, $set->site_name, 'A user just purchased a plan #'.$plan->trx, ' The plan will run for '.$plan->duration.' '.$plan->period. 'and will be updated daily.');
+                    }
+                    if($set['email_notify']==1){
                     send_email($user->email, $user->site_name, 'Trade has started', '#'.$plan->trx.' will be updated daily and run for '.$plan->duration.' '.$plan->period.'. Thanks for choosing us.');
                     }
+
                     return redirect()->route('user.trades')->with('success', 'Plan was successfully purchased.');
                 }else{
                     return redirect()->route('user.trades')->with('alert', 'value is greater than maximum deposit');  
