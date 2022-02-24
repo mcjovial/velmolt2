@@ -16,7 +16,7 @@
                   <div class="text-xl mb-2 @if($val->popular==1) text-white @else text-dark @endif">{{number_format($val->min_deposit).$currency->name}} <span class="text-sm @if($val->popular==1) text-white @else text-dark @endif">@ {{$val->percent}}% {{__('Daily')}}</span></div>
                   <p class="card-text text-sm @if($val->popular==1) text-white @else text-dark @endif mb-0">Runs for {{$val->duration}} {{$val->period}}@if($val->duration>1)s @endif</p>
                   <p class="text-sm @if($val->popular==1) text-white @else text-dark @endif mb-0">{{number_format($val->amount).$currency->name}} {{__('Maximum Deposit')}}</p>
-                  <p class="text-sm @if($val->popular==1) text-white @else text-dark @endif mb-0">{{$val->interest}}% {{__('Return on Investment')}}</p>                 
+                  <p class="text-sm @if($val->popular==1) text-white @else text-dark @endif mb-0">{{$val->compound}}% {{__('Return on Investment')}}</p>                 
                   <p class="text-sm @if($val->popular==1) text-white @else text-dark @endif mb-0">@if($val->ref_percent!=null){{$val->ref_percent}}% @else {{__('No')}} @endif{{__('Referral Bonus')}}</p>                                                
                   <p class="text-sm @if($val->popular==1) text-white @else text-dark @endif mb-0">@if($val->bonus!=null){{$val->bonus}}% @else {{__('No')}} @endif{{__('Investment Bonus')}}</p>
                   <p class="text-sm @if($val->popular==1) text-white @else text-dark @endif mb-0">@if($val->claim==1) {{__('Access to Profit anytime')}} @else {{__('Access to profit at end of plan')}} @endif</p>
@@ -28,6 +28,7 @@
                   $amount=$val->min_deposit;
                   $interest=($val->min_deposit*$val->interest/100).$currency->name;
                   $compound=$val->min_deposit*($val->compound/100).$currency->name;
+                  $cmpnd= ($val->compound);
                   $xstart_date=date_create(Carbon\Carbon::now());
                   date_add($xstart_date, date_interval_create_from_date_string($val->duration.' '.$val->period));
                   $xndate=date_format($xstart_date, "Y-m-d H:i:s"); 
@@ -94,7 +95,7 @@
                     </div>
                   </div>
                   <p class="card-text text-xs @if($val->popular==1) text-white @else text-gray @endif">{{__('Here a quick summary; Money invested')}} {{$amount.$currency->name}}, {{__('Compound Interest will amount to')}} 
-                  {{$compound}} {{__('after')}} {{$val->duration.' '.$val->period}}@if($val->duration>1)s @endif. @if($val->bonus!==null) {{__('You will receive')}} {{$val->bonus}}% {{__('of Compound Interest as Bonus')}} @endif
+                  {{$cmpnd}}% {{__('after')}} {{$val->duration.' '.$val->period}}@if($val->duration>1)s @endif. @if($val->bonus!==null) {{__('You will receive a net return of ')}} {{($amount) + ($amount * $cmpnd / 100)}}USD and {{$val->bonus}}% {{__('of Compound Interest as Bonus')}} @endif
                   </p>
                 </div>
               </div>
