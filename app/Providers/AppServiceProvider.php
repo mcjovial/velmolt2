@@ -131,12 +131,14 @@ class AppServiceProvider extends ServiceProvider
                         $outcome=$xpro->compound*$xpro->amount/100;
                         $capital=$xpro->amount;
                         $castro_profit=$outcome-$capital;
-                        $real_profit=($xpro->percent*$xpro->amount/100*$date_diff->format('%R%a'))-$xpro->amount;
-                        if($real_profit>0){
-                            $profits->real_profit=$real_profit;
-                        }else{
-                            $profits->real_profit=$xpro->percent*$xpro->amount/100*$date_diff->format('%R%a');
-                        }
+                        $real_profit= $xpro->percent*$xpro->amount/100*$date_diff->format('%R%a');
+                        // $real_profit=($xpro->percent*$xpro->amount/100*$date_diff->format('%R%a'))-$xpro->amount;
+                        // if($real_profit>0){
+                        //     $profits->real_profit=$real_profit;
+                        // }else{
+                        //     $profits->real_profit=$xpro->percent*$xpro->amount/100*$date_diff->format('%R%a');
+                        // }
+                        $profits->real_profit=$real_profit;
                         $profits->save();
                     }else{
                         $fdate=$xpro->compound*$xpro->amount/100;
@@ -144,20 +146,24 @@ class AppServiceProvider extends ServiceProvider
                         $outcome=$xpro->compound*$xpro->amount/100;
                         $capital=$xpro->amount;
                         $castro_profit=$outcome-$capital;
-                        $real_profit=($xpro->percent*$xpro->amount/100*$date_diff->format('%R%a'))-$xpro->amount;
-                        if($real_profit>0){
-                            $profits->real_profit=$real_profit;
-                        }else{
-                            $profits->real_profit=($xpro->compound*$xpro->amount/100)-$xpro->amount;
-                        }
+                        $real_profit= $xpro->percent*$xpro->amount/100*$date_diff->format('%R%a');
+                        // $real_profit=($xpro->percent*$xpro->amount/100*$date_diff->format('%R%a'))-$xpro->amount;
+                        // if($real_profit>0){
+                        //     $profits->real_profit=$real_profit;
+                        // }else{
+                        //     $profits->real_profit=($xpro->compound*$xpro->amount/100)-$xpro->amount;
+                        // }
+                        
+                        $profits->real_profit=$real_profit;
                         $profits->save();  
                         if($xpro->status==1){
                             $profits->status=2;
                             $profits->save();
-                            $amount=$xpro->real_profit-$xpro->claimed;
+                            $amount=$xpro->real_profit - $xpro->claimed;
+                            
                             //Profit
-                            $user->profit=$user->profit+$amount;
-                            $user->total_profit=$user->total_profit+$amount;
+                            $user->profit = $user->profit + $amount;
+                            $user->total_profit = $user->total_profit + $amount;
                             $user->save();
                             $ph['user_id'] = $xpro->user_id;
                             $ph['profit_id'] = $xpro->id;
@@ -165,8 +171,9 @@ class AppServiceProvider extends ServiceProvider
                             $ph['date'] = Carbon::today();
                             $ph['ref']=$token='HIS-'.str_random(6);
                             Claimed::create($ph);
+                            
                             //Balance
-                            $user->balance=$user->balance+$xpro->amount;
+                            $user->balance = $user->balance + $xpro->amount;
                             $user->save();
                             $ch['user_id'] = $xpro->user_id;
                             $ch['profit_id'] = $xpro->id;
@@ -174,10 +181,11 @@ class AppServiceProvider extends ServiceProvider
                             $ch['date'] = Carbon::today();
                             $ch['ref']=$token='HIS-'.str_random(6);
                             Claimed::create($ch);
+                            
                             //Bonus
                             if($xpro->c_bonus!=null && $user->upgrade==1){
-                                $user->profit=$user->profit+$xpro->bonus;
-                                $user->trade_bonus=$user->trade_bonus+$xpro->bonus;
+                                $user->profit = $user->profit + $xpro->bonus;
+                                $user->trade_bonus = $user->trade_bonus + $xpro->bonus;
                                 $user->save();  
                                 $profits->$xpro->bonus;
                                 $profits->save();

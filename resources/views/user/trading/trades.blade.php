@@ -9,15 +9,17 @@
           @if(count($activity)>0)
             @foreach($activity as $k=>$val)
               @php
-                $date_diffx=date_diff(date_create($val->date), date_create($val->end_date));
-                $claimed=App\Models\Claimed::whereprofit_id($val->id)->sum('amount');
-                $bonus=$val->amount*$val->c_bonus/100;
-                $c=$val->recurring;
-                $goalx=$val->compound*$val->amount/100;
-                $goal=$val->compound*$val->amount/100;
-                $profitx=$goalx-$val->amount;
-                $profit=$goalx-$val->amount;
-                $pp=$val->compound*$val->amount/100;
+                $date_diffx = date_diff(date_create($val->date), date_create($val->end_date));
+                $claimed = App\Models\Claimed::whereprofit_id($val->id)->sum('amount');
+                $bonus = $val->amount*$val->c_bonus/100;
+                $c = $val->recurring;
+                $goalx = $val->compound*$val->amount/100;
+                $goal = $val->compound*$val->amount/100;
+                $profitx = $goalx;
+                $profit = $goalx;
+                // $profitx=$goalx-$val->amount;
+                // $profit=$goalx-$val->amount;
+                $pp = $val->compound*$val->amount/100;
               @endphp
             <div class="col-lg-6">
               <div class="card">
@@ -49,7 +51,7 @@
                     </div>
                     <div class="col-6 text-right">
                       <h4 class="mb-1 h2 text-dark er">GOAL {{$goal.$currency->name}}</h4>
-                      <p class="text-sm text-dark mb-0 text-uppercase">{{__('ROI')}} - {{round($profit, 1).$currency->name}}</p>
+                      {{-- <p class="text-sm text-dark mb-0 text-uppercase">{{__('ROI')}} - {{round($profit, 1).$currency->name}}</p> --}}
                       @if($val->plan->bonus!=null)<p class="text-sm text-dark mb-0 text-uppercase">{{__('Bonus')}} - {{round($bonus, 1).$currency->name}}</p>@endif
                     </div>
                   </div>
