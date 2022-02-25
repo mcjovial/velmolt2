@@ -159,7 +159,7 @@
                                     </span>
                                     <input type="number" class="form-control" name="duration" value="1" min="1">
                                     <span class="input-group-append">
-                                        <span class="input-group-text text-uppercase">{{$val->plan->period}}</span>
+                                        <span class="input-group-text text-uppercase">{{isset($val->plan->period)}}</span>
                                     </span>
                                 </div>
                               </div>
