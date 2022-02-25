@@ -58,7 +58,7 @@
                   @php $pp=$val->compound*$val->amount/100; @endphp
 
                   <p class="text-sm text-gray mb-0 text-uppercase"><span class="text-sm text-dark mb-2 text-uppercase">{{__('TID')}}:</span> {{$val->trx}}</p>
-                  <p class="text-sm text-gray mb-0 text-uppercase"><span class="text-sm text-dark mb-2 text-uppercase">{{__('PLAN')}}:</span> {{$val->plan->name}} <i><small> [{{$val->duration}}s ]</small></i> </p>
+                  <p class="text-sm text-gray mb-0 text-uppercase"><span class="text-sm text-dark mb-2 text-uppercase">{{__('PLAN')}}:</span> {{isset($val->plan->name)}} <i><small> [{{$val->duration}}s ]</small></i> </p>
                   <p class="text-sm text-gray mb-2 text-uppercase"><span class="text-sm text-dark mb-2 text-uppercase">{{__('INVESTED')}}:</span> {{round($val->amount, 1).$currency->name}}</p>
                   <h4 class="mb-1 h2" style="color: {{$set->s_c}};"><span class="text-sm text-dark mb-2 text-uppercase">{{__('ROI')}}:</span> {{round($val->profit, 1).$currency->name}}</h4>
 
