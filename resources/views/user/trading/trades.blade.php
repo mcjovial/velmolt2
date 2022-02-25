@@ -52,7 +52,7 @@
                     <div class="col-6 text-right">
                       <h4 class="mb-1 h2 text-dark er">GOAL {{$goal.$currency->name}}</h4>
                       {{-- <p class="text-sm text-dark mb-0 text-uppercase">{{__('ROI')}} - {{round($profit, 1).$currency->name}}</p> --}}
-                      @if($val->plan->bonus!=null)<p class="text-sm text-dark mb-0 text-uppercase">{{__('Bonus')}} - {{round($bonus, 1).$currency->name}}</p>@endif
+                      @if(isset($val->plan->bonus)!=null)<p class="text-sm text-dark mb-0 text-uppercase">{{__('Bonus')}} - {{round($bonus, 1).$currency->name}}</p>@endif
                     </div>
                   </div>
                   <div class="row align-items-center mb-3">
