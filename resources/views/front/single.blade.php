@@ -1,43 +1,42 @@
 @extends('layout')
-@section('css')
 
-@stop
+@section('css')
+    
+@endsection
+
 @section('content')
-<section id="header" class="page-backg blog-details-backg"  style="background-color: transparent; background-image: linear-gradient(to top, #ffffff 0%, {{$set->m_c}} 60%);"> 
-    <div class="container">
-        <div class="page-title-wrapper">
-            <ul class="post-meta color-theme">
-                <li><a href="javascript:void;">{{date("M j, Y", strtotime($post->created_at))}}</a></li>
-            </ul>
-            <h1 class="page-title">{{$post->title}}</h1>
-            <ul class="post-meta">
-                <li><span>{{__('By')}}</span> <a href="javascript:void;">{{__('Admin')}}</a></li>
-                <li><a href="cat/{{$xcat->id}}">{{$xcat->categories}}</a></li>
-            </ul>
-        </div>
-    </div>
-</section>
-<section class="blog-single">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 left-blog-d">
-                <div class="post-wrapper">
-                    <article class="post post-signle">
-                        <div class="feature-image"><a href="javascript:void;"><img src="{{url('/')}}/asset/thumbnails/{{$post->image}}" alt=""></a></div>
-                        <div class="blog-content">
-                            <p>{!!$post->details!!}</p>                           
-                            <div class="single-blog-bottom-content">
-                                <div class="blog-share">
-                                    @include('partials.share')
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            @include('partials.sidebar')
-        </div>
-        <!-- NAV -->
-    </div>
-</section>
-@stop
+  <main id="primary" class="site-main single-post">
+    <article id="post-4614" class="blog-post post-4614 post type-post status-publish format-standard has-post-thumbnail hentry category-home-buyers resource-type-articles">
+      <div class="container-narrow">
+          <header class="blog-post__header">
+            <div class="blog-post__resources"><a class="label-as-button">Article</a></div>
+            <h1 class="entry-title">{{ $post->title }}</h1>
+            <div class="blog-post__meta">
+              <div class="column column--left">
+                <span class="posted-on">
+                  <time class="entry-date published" datetime="2022-04-01T14:33:30+00:00">{{date("M j, Y", strtotime($post->created_at))}}</time>
+                </span>
+                <span class="reading-time clock">1 minute read</span>
+              </div>
+              <div class="column column--right">
+              <div class="social-share ">
+                <a class="social-share__link facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.doma.com%2Fflorida-property-taxes-overview%2F" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="social-share__link twitter" href="https://twitter.com/intent/tweet?text=Florida%20Property%20Taxes%20Overview&amp;url=https%3A%2F%2Fwww.doma.com%2Fflorida-property-taxes-overview%2F&amp;via=Crunchify" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="social-share__link linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.doma.com%2Fflorida-property-taxes-overview%2F&amp;title=Florida%20Property%20Taxes%20Overview" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <button class="social-share__link js-copybtn" data-url="https://www.doma.com/florida-property-taxes-overview/"><i class="fas fa-copy"></i></button>
+              </div>
+            </div><!-- .entry-meta -->
+          </header><!-- .entry-header -->
+      </div>
+      <div class="container">
+      <div class="blog-post__thumbnail"><img width="2560" height="1520" src="{{url('/')}}/asset/thumbnails/{{$post->image}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+      <div class="container-narrow">
+        <div class="entry-content blog-post__content">
+          <p>{!!$post->details!!}</p>
+        </div><!-- .entry-content -->
+      </div>
+    </article><!-- #post-4614 -->
+    
+
+      </main><!-- #main -->
+@endsection

@@ -63,12 +63,12 @@
                         <div class="wrapper">
                             <div class="menu-header-mega-container">
                                 <ul id="primary-nav" class="menu__list">
-                                    <li id="menu-item-2365" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2365"><a href="#">Home</a></li>
-                                    <li id="menu-item-2438" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2438"><a href="/try.html">About Us</a></li>
-                                    <li id="menu-item-2369" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2369"><a href="#">Blog</a>
+                                    <li id="menu-item-2365" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2365"><a href="/">Home</a></li>
+                                    <li id="menu-item-2438" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2438"><a href="{{ route('about') }}">About Us</a></li>
+                                    <li id="menu-item-2369" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2369"><a href="{{ route('blog') }}">Blog</a>
                                     </li>
-                                    <li id="menu-item-2365" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2365"><a href="#">Login</a></li>
-                                    <li id="menu-item-2365" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2365"><a href="#">Register</a></li>
+                                    <li id="menu-item-2365" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2365"><a href="{{ route('login') }}">Login</a></li>
+                                    <li id="menu-item-2365" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2365"><a href="{{ route('register') }}">Register</a></li>
 
                                     <li id="menu-item-2370" class="button menu-item menu-item-type-post_type menu-item-object-page menu-item-2370"><a href="{{ route('contact') }}">Get In Touch</a></li>
                                 </ul>
@@ -147,8 +147,7 @@
                                     <ul class="mobile-collapse-wrap">
                                         <li class="footer__main-heading mobile-collapse"><span>Get in Touch</span>
                                             <ul class="footer__main-info">
-                                                <li>101 Mission St, Suite 740, San Francisco, CA 94105
-                                                    © 2022 Doma Holdings, Inc. All rights reserved.</li>
+                                                <li>1166 6th Ave, New York, NY 10036, United States.</li>
                                                 <li class="footer__main-heading-like"><strong>Contact Phone</strong></li>
                                                 <li><a href="tel:123456789">+123 456 789</a></li>
                                                 <li class="footer__main-heading-like"><strong>Email Address</strong></li>
@@ -158,37 +157,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <ul class="footer__main-inner social-icons-mobile">
-                                <li class="followUsText">Follow Us:</li>
-                                    <ul class="social-icons-inner">
-                                        <li class="linkedinIco">
-                                            <a href="http://linkedin.com/company/domahq" title="linkedin" target="_blank" rel="noopener noreferrer">
-                                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                        <li class="twitterIco">
-                                            <a href="https://twitter.com/domahqtweets" title="Twitter" target="_blank" rel="noopener noreferrer">
-                                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                        <li class="instagramIco">
-                                            <a href="https://www.instagram.com/domahq/" title="Instagram" target="_blank" rel="noopener noreferrer">
-                                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                        <li class="facebookIco">
-                                            <a href="http://facebook.com/domahq" title="Facebook" target="_blank" rel="noopener noreferrer">
-                                                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                        <li class="youtubeIco">
-                                            <a href="https://youtube.com/channel/UC17Mrl2hzYJW5G2NIGmS75w" title="YouTube" target="_blank" rel="noopener noreferrer">
-                                                <i class="fa fa-youtube-square" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </ul>
-                            </ul>
+                            {{--  --}}
                         <ul class="footer__sub-content">
                             <ul class="social-icons">
                                 <li class="followUsText">Follow Us:</li>
