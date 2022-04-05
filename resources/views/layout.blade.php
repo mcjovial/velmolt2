@@ -43,6 +43,14 @@
         <script src='https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js' defer></script>
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <style>
+            .logo {
+                height: 100%;
+                display: flex;
+                align-items: center
+            }
+        </style>
     </head>
 
 <body class="home page-template-default page page-id-188 wp-schema-pro-2.7.2">
@@ -56,7 +64,8 @@
                         <!-- Logo -->
                         <div class="logo__wrapper">
                             <a class="logo" href="/">
-                                <h4>Options</h4>
+                                <img src="/img/log.png" alt="" id="headerLogo" width="300">
+                                {{-- <h4>Options</h4> --}}
                             </a>
                         </div>
                         <!-- Navigation -->
@@ -104,7 +113,7 @@
                 <div class="footer__wrapper">
                     <div class="footer__logo-section">
                         <a class="logo" href="/">
-                            <h3>Whales</h3>
+                            <img src="/img/log.png" alt="" id="headerLogo" width="">
                         </a>
                     </div>
                     <div class="content-section--footer">
@@ -202,9 +211,11 @@
                 </div>
             </div>
         </footer>
-
     <!-- Footer Section End -->
     </div>
+
+    @yield('js')
+</body>
 </html>
 
 <!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

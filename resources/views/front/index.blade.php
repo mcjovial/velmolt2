@@ -5,7 +5,7 @@
 @section('content')
 
     <!--Banner Section Starts-->
-        <section data-bg="{{ asset('/img/3.jpg') }}" id="homepage-hero-banner" class="banner scroll_link_banner rocket-lazyload" style="background-image: url(/img/3.jpg);">
+        <section data-bg="{{ asset('/img/3.jpg') }}" id="homepage-hero-banner" class="banner rocket-lazyload mySlides" style="background-image: url(/img/3.jpg); display: none;">
             <div class="container">
                 <div class="banner__content">
                     <h1 style="color: #fff;">Re-innovating real-time options trading activities </h1>
@@ -16,11 +16,43 @@
                     </div>
                 </div>
             </div>
-            <div class="scroll-anchor"><a href="#" class="scrollLink"><img
-                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/themes/doma-theme/dist/images/scroll_Indication.png"><noscript><img
-                src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/themes/doma-theme/dist/images/scroll_Indication.png"></noscript></a>
+        </section>
+        <section data-bg="{{ asset('/img/reff.jpg') }}" id="homepage-hero-banner" class="banner  rocket-lazyload mySlides" style="background-image: url(/img/reff.jpg);">
+            <div class="container">
+                <div class="banner__content">
+                    <h1 style="color: #fff;">OptionWhales CryptoCurrency Investments </h1>
+                    <p style="color: #fff;">Your single point of access to professional cryptoasset investment solution. Built for investors interested in stable returns and high liquidity. We offer an array of cryptocurrency investment products.</p>
+                    <div class="anchors-wrapper">
+                        <a href="/" class="button__main button--arrow" target="_self">Our Vision<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        <a href="/" class="button__secondary button--white-mobile button--arrow" target="_self">Let's Talk<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
             </div>
         </section>
+        <section data-bg="{{ asset('/img/3.jpg') }}" id="homepage-hero-banner" class="banner rocket-lazyload mySlides" style="background-image: url(/img/thanksy.jpg);">
+            <div class="container">
+                <div class="banner__content">
+                    <h1 style="color: #fff;">More Investment Options. More Opportunities To Grow.</h1>
+                    <p style="color: #fff;">With over 5 years of experience we've developed unique strategies to offer you unparalleled trades. Join our Platform today to get started</p>
+                    <div class="anchors-wrapper">
+                        <a href="/" class="button__main button--arrow" target="_self">Our Vision<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        <a href="/" class="button__secondary button--white-mobile button--arrow" target="_self">Let's Talk<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- <section data-bg="{{ asset('/img/3.jpg') }}" id="homepage-hero-banner" class="banner rocket-lazyload mySlides" style="background-image: url(/img/3.jpg);">
+            <div class="container">
+                <div class="banner__content">
+                    <h1 style="color: #fff;">Re-innovating real-time options trading activities </h1>
+                    <p style="color: #fff;">OptionWhale is an algorithm-based options flow Investment platform that exposes smart money whale trades and creates a vastly more simple, efficient and affordable closing experience in the Crypto stock and equity option markets.</p>
+                    <div class="anchors-wrapper">
+                        <a href="/" class="button__main button--arrow" target="_self">Our Vision<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        <a href="/" class="button__secondary button--white-mobile button--arrow" target="_self">Let's Talk<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section> --}}
     <!--Banner Section Ends-->
     <!--Focus Section Starts-->
         <section class="tech-help">
@@ -283,5 +315,23 @@
             </div>
         </section>
     <!--Resources Section Ends-->
-
 @stop
+
+@section('js')
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 5000); // Change image every 2 seconds
+    }
+    </script>
+@endsection

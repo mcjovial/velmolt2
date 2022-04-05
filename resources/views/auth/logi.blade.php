@@ -125,7 +125,7 @@
                     </div>
                     <div class="content">
                         <div class="mktoText" id="sec1text1">
-                            <p>Invest with confidence and benefit from the reliability of a trusted broker with a proven record of stability, security and strength.</p>
+                            <p>Lucrative CryptoCurrency Investment opportunity at your fingertips.</p>
                         </div>
                     </div>
                     <div class="sec1ImgWrap" style="display: block">
@@ -141,64 +141,14 @@
                     <div class="secRightWrap">
                         <div class="formContainer" style="margin-bottom: 40px">
                             <div class="formHeader">
-                                <div class="mktoText" id="sec1FormHeader"><h2>REGISTER HERE</h2></div>
+                                <div class="mktoText" id="sec1FormHeader"><h2>LOGIN HERE</h2></div>
                             </div>
                             <div class="mktoForm" id="sec1rightForm">
                                 <div id='lpeCDiv_30154' class='lpeCElement SEA_LP_6_Shortcuts_to_a_7_Day_Close-1214FORM_SEA-6_Shortcuts_to_a_7_Day_Close-1521'>
                                     <span class='lpContentsItem formSpan'>
                                         <form id="mktoForm_1450" novalidate="novalidate" class="mktoForm mktoHasWidth mktoLayoutLeft" style="font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: rgb(51, 51, 51);">
                                             <style type="text/css"></style>
-                                            <div class="mktoFormRow">
-                                                <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;">
-                                                    <div class="mktoOffset" style="width: 10px;"></div>
-                                                    <div class="mktoFieldWrap mktoRequiredField">
-                                                        <label for="LastName" id="LblLastName" class="mktoLabel mktoHasWidth" style="">
-                                                            <div class="mktoAsterix">*</div>
-                                                            Username:
-                                                        </label>
-                                                        <div class="mktoGutter mktoHasWidth" style=""></div>
-                                                        <input id="LastName" name="name" maxlength="255" aria-labelledby="LblLastName InstructLastName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired mktoInvalid" aria-required="true" style="" aria-invalid="true">
-                                                        <span id="InstructLastName" tabindex="-1" class="mktoInstruction"></span>
-                                                        <div class="mktoClear"></div>
-                                                    </div>
-                                                    <div class="mktoClear"></div>
-                                                </div>
-                                                <div class="mktoClear"></div>
-                                            </div>
-                                            <div class="mktoFormRow">
-                                              <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;">
-                                                  <div class="mktoOffset" style="width: 10px;"></div>
-                                                  <div class="mktoFieldWrap mktoRequiredField">
-                                                      <label for="LastName" id="LblLastName" class="mktoLabel mktoHasWidth" style="">
-                                                          <div class="mktoAsterix">*</div>
-                                                          First Name:
-                                                      </label>
-                                                      <div class="mktoGutter mktoHasWidth" style=""></div>
-                                                      <input id="LastName" name="name" maxlength="255" aria-labelledby="LblLastName InstructLastName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired mktoInvalid" aria-required="true" style="" aria-invalid="true">
-                                                      <span id="InstructLastName" tabindex="-1" class="mktoInstruction"></span>
-                                                      <div class="mktoClear"></div>
-                                                  </div>
-                                                  <div class="mktoClear"></div>
-                                              </div>
-                                              <div class="mktoClear"></div>
-                                          </div>
-                                          <div class="mktoFormRow">
-                                            <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;">
-                                                <div class="mktoOffset" style="width: 10px;"></div>
-                                                <div class="mktoFieldWrap mktoRequiredField">
-                                                    <label for="LastName" id="LblLastName" class="mktoLabel mktoHasWidth" style="">
-                                                        <div class="mktoAsterix">*</div>
-                                                        Last Name:
-                                                    </label>
-                                                    <div class="mktoGutter mktoHasWidth" style=""></div>
-                                                    <input id="LastName" name="name" maxlength="255" aria-labelledby="LblLastName InstructLastName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired mktoInvalid" aria-required="true" style="" aria-invalid="true">
-                                                    <span id="InstructLastName" tabindex="-1" class="mktoInstruction"></span>
-                                                    <div class="mktoClear"></div>
-                                                </div>
-                                                <div class="mktoClear"></div>
-                                            </div>
-                                            <div class="mktoClear"></div>
-                                        </div>
+
                                             <div class="mktoFormRow">
                                                 <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;">
                                                     <div class="mktoOffset" style="width: 10px;"></div>
@@ -222,27 +172,10 @@
                                                     <div class="mktoFieldWrap mktoRequiredField">
                                                         <label for="Phone" id="LblPhone" class="mktoLabel mktoHasWidth" style="">
                                                             <div class="mktoAsterix">*</div>
-                                                            Referral:
-                                                        </label>
-                                                        <div class="mktoGutter mktoHasWidth" style=""></div>
-                                                        <input id="ref" name="ref" maxlength="255" aria-labelledby="LblPhone InstructPhone" type="text" class="mktoField mktoTelField mktoHasWidth mktoRequired mktoInvalid" aria-required="true" style="" aria-invalid="true">
-                                                        <span id="InstructPhone" tabindex="-1" class="mktoInstruction"></span>
-                                                        <div class="mktoClear"></div>
-                                                    </div>
-                                                    <div class="mktoClear"></div>
-                                                </div>
-                                                <div class="mktoClear"></div>
-                                            </div>
-                                            <div class="mktoFormRow">
-                                                <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;">
-                                                    <div class="mktoOffset" style="width: 10px;"></div>
-                                                    <div class="mktoFieldWrap mktoRequiredField">
-                                                        <label for="Phone" id="LblPhone" class="mktoLabel mktoHasWidth" style="">
-                                                            <div class="mktoAsterix">*</div>
                                                             Password:
                                                         </label>
                                                         <div class="mktoGutter mktoHasWidth" style=""></div>
-                                                        <input id="ref" name="ref" maxlength="255" aria-labelledby="LblPhone InstructPhone" type="text" class="mktoField mktoTelField mktoHasWidth mktoRequired mktoInvalid" aria-required="true" style="" aria-invalid="true">
+                                                        <input id="Phone" name="mobile" maxlength="255" aria-labelledby="LblPhone InstructPhone" type="tel" class="mktoField mktoTelField mktoHasWidth mktoRequired mktoInvalid" aria-required="true" style="" aria-invalid="true">
                                                         <span id="InstructPhone" tabindex="-1" class="mktoInstruction"></span>
                                                         <div class="mktoClear"></div>
                                                     </div>
@@ -250,7 +183,7 @@
                                                 </div>
                                                 <div class="mktoClear"></div>
                                             </div>
-                    
+                        
                                             <div class="mktoButtonRow">
                                                 <span class="mktoButtonWrap mktoNative" style="margin-left: 120px;">
                                                     <button type="submit" class="mktoButton">Submit</button>
@@ -289,12 +222,7 @@
 	                           <li>
 	                              <p>© 2021 Doma, Inc. All rights reserved.</p>
 	                           </li>
-	                           <li class="border-right">
-	                              
-	                           </li>
-	                           <li>
-	                              
-	                           </li>
+	                           
 	                        </ul>
                         </div>
                         </div>
@@ -310,7 +238,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/" target="_blank">
+                                        <a href="" target="_blank">
                                             <img src="https://info.statestitle.com/rs/876-PJR-864/images/ATE_REG_twitter.png">
                                         </a>
                                     </li>
@@ -320,7 +248,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/" target="_blank">
+                                        <a href="" target="_blank">
                                             <img src="https://info.statestitle.com/rs/876-PJR-864/images/ATE_REG_facebook.png">
                                         </a>
                                     </li>
@@ -340,4 +268,7 @@
             </div>
         
     </footer>
+<script type="text/javascript" src="//munchkin.marketo.net//munchkin.js"></script><script>Munchkin.init('876-PJR-864', {customName: 'SEA-LP-6Shortcutstoa7DayClose', wsInfo: 'iFRR'});</script>
+<script type="text/javascript" src="/js/stripmkttok.js"></script></body>
+
 </html>
