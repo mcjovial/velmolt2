@@ -16,6 +16,9 @@
           <div class="card border-0 mb-0">
             <div class="card-body px-lg-5 py-lg-5">
               <div class="text-center text-dark mb-5">
+                <a href="/" target="_blank">
+                    <img src="/img/log.png" alt="" id="headerLogo" width="300">
+                </a>
                 <h3 class="text-dark font-weight-bolder">{{ __('Sign Up') }}</h3>
                 <small>{{$set->title}}</small>
               </div>
