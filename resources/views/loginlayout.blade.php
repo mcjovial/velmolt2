@@ -26,7 +26,7 @@
 <!-- header begin-->
   <body style="background-color:{{$set->m_c}};">
     <nav id="navbar-main" class="navbar navbar-horizontal navbar-transparent navbar-main navbar-expand-lg navbar-dark">
-      <div class="container">
+      <div class="container"  style="background: white;">
       @if (Auth::guard('user')->check()) 
         <a class="navbar-brand text-dark" href="{{ url()->previous()}}">
           <span><i class="fal fa-arrow-left"></i>  {{__('Back')}}</span>
