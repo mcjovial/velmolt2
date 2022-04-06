@@ -125,7 +125,9 @@ class RegisterController extends Controller
                 $key = User::whereusername($request->ref)->first();
                 $user->referral = $key->id;
 
-                send_email($key->email,$key->username,'New referral alert','Hello '.$key->username.', you have a new referral.');
+                if($set->email_notify==1){
+                    send_email($key->email,$key->username,'New referral alert','Hello '.$key->username.', you have a new referral.');
+                }
             }
         }
         $user->save();
@@ -139,7 +141,9 @@ class RegisterController extends Controller
 
         if ($basic->email_verification == 1) {
             $text = "Your Email Verification Code Is: <b>$user->verification_code</b>";
-            send_email($user->email, $user->name, 'Email verification', $text);
+            if($set->email_notify==1){
+                send_email($user->email, $user->name, 'Email verification', $text);
+            }
         }
 
         if (Auth::guard('user')->attempt([
