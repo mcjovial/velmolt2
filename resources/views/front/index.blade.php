@@ -5,7 +5,7 @@
 @section('content')
 
     <!--Banner Section Starts-->
-        <section data-bg="{{ asset('/img/3.jpg') }}" id="homepage-hero-banner" class="banner rocket-lazyload mySlides" style="background-image: url(/img/3.jpg); display: none;">
+        <section data-bg="{{ asset('/img/3.jpg') }}" id="homepage-hero-banner" class="banner rocket-lazyload mySlides" style="background-image: url(/img/3.jpg);">
             <div class="container">
                 <div class="banner__content">
                     <h1 style="color: #fff;">Re-innovating real-time options trading activities </h1>
@@ -17,7 +17,7 @@
                 </div>
             </div>
         </section>
-        <section data-bg="{{ asset('/img/reff.jpg') }}" id="homepage-hero-banner" class="banner  rocket-lazyload mySlides" style="background-image: url(/img/reff.jpg);">
+        <section data-bg="{{ asset('/img/reff.jpg') }}" id="homepage-hero-banner" class="banner b2 rocket-lazyload mySlides" style="background-image: url(/img/reff.jpg);">
             <div class="container">
                 <div class="banner__content">
                     <h1 style="color: #fff;">OptionWhales CryptoCurrency Investments </h1>
@@ -29,7 +29,7 @@
                 </div>
             </div>
         </section>
-        <section data-bg="{{ asset('/img/3.jpg') }}" id="homepage-hero-banner" class="banner rocket-lazyload mySlides" style="background-image: url(/img/thanksy.jpg);">
+        <section data-bg="{{ asset('/img/3.jpg') }}" id="homepage-hero-banner" class="banner b3 rocket-lazyload mySlides" style="background-image: url(/img/thanksy.jpg);">
             <div class="container">
                 <div class="banner__content">
                     <h1 style="color: #fff;">More Investment Options. More Opportunities To Grow.</h1>
@@ -67,9 +67,6 @@
                         <div class="card">
                             <a href="/" target="_self" class="link-overlay">
                                 <div class="card-inner">
-                                    <div class="tech-icon">
-                                        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/Doma-Intelligence-icon.svg"><noscript><img src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/Doma-Intelligence-icon.svg" alt=""></noscript>
-                                    </div>
                                     <span class="tech-info">
                                         <p class="h4 heading_bold">World Class Crypto Trading Technologies</p>
                                         <p class="body_description">Returns completed settlement statements in under one minute.</p>
@@ -85,9 +82,6 @@
                         <div class="card">
                             <a href="/" target="_self" class="link-overlay">
                                 <div class="card-inner">
-                                    <div class="tech-icon">
-                                        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/Doma-Title-icon.svg"><noscript><img src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/Doma-Title-icon.svg" alt=""></noscript>
-                                    </div>
                                     <span class="tech-info">
                                         <p class="h4 heading_bold">Strongly regulated</p>
                                         <p class="body_description">Returns completed settlement statements in under one minute.</p>
@@ -103,9 +97,6 @@
                         <div class="card">
                             <a href="/" target="_self" class="link-overlay">
                                 <div class="card-inner">
-                                    <div class="tech-icon">
-                                        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/Doma-Escrow-icon.svg"><noscript><img src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/Doma-Escrow-icon.svg" alt=""></noscript>
-                                    </div>
                                     <span class="tech-info">
                                         <p class="h4 heading_bold">Lucrative Returns</p>
                                         <p class="body_description">Returns completed settlement statements in under one minute.</p>
@@ -118,24 +109,6 @@
                                 </div><!--/.card-inner-->
                             </a>
                         </div><!--/.card-->
-                        {{-- <div class="card">
-                            <a href="/" target="_self" class="link-overlay">
-                                <div class="card-inner">
-                                    <div class="tech-icon">
-                                        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/Doma-Close-icon.svg"><noscript><img src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/Doma-Close-icon.svg" alt=""></noscript>
-                                    </div>
-                                    <span class="tech-info">
-                                        <p class="h4 heading_bold">Fast executions</p>
-                                        <p class="body_description">Enables digital document review and e-sign for a simplified and fully transparent closing.</p>
-                                    </span>
-                                    <span class="button-arrow--next">
-                                        <span>
-                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                        </span>
-                                    </span>
-                                </div><!--/.card-inner-->
-                            </a>
-                        </div><!--/.card--> --}}
                     </div>
                 </div>
             </div>
@@ -149,66 +122,31 @@
                     <div class="doma-blog__container">
                         <div class="doma-posts-list">
                             <div class="doma-posts-list__content">
-                                
+                                @foreach ($posts as $post)    
                                 <div class="doma-posts-list__item">
                                     <div class="doma-posts-list__item-content">
-                                        <div class="doma-post-item resource-type_article">
-                                            <div class="doma-post-item__inner">
-                                                <div class="doma-post-item__content">
-                                                    <a class="doma-post-item__top" title="Three Investment Rules" href="/" >
-                                                        <div class="cat">Article </div>
-                                                        <div data-bg="/" class="doma-post-item__bg rocket-lazyload" style="background-image: url(/img/photo-1579226905180-636b76d96082.jpeg);"></div>
-                                                    </a>
-                                                    <h3 class="doma-post-item__title">
-                                                        <a class="doma-post-item__title-link" title="Texas Customary Closing Costs" href="/" >Three Investment Rules</a>
-                                                    </h3>
-                                                    <div class="doma-post-item__excerpt doma-post-item__excerpt--featured-pane">Buying a home is not as simple as negotiating a price with the seller. There are&hellip;</div>
-                                                    <span class="reading-time clock">2 minute read</span>
-                                                </div>
-                                            </div>
-                                        </div><!-- /.doma-post-item -->
+                                      <div class="doma-post-item resource-type_article">
+                                        <div class="doma-post-item__inner">
+                                          <div class="doma-post-item__content">
+                                            <a class="doma-post-item__top" title="{{ $post->title }}" href="{{url('/')}}/single/{{$post->id}}/{{str_slug($post->title)}}" >
+                                              <div class="cat">Article </div>
+                                              <div data-bg="{{url('/')}}/asset/thumbnails/{{$post->image}}" class="doma-post-item__bg rocket-lazyload" style="background-image: url({{url('/')}}/asset/thumbnails/{{$post->image}})">
+                                              </div>
+                                            </a>
+                                            <h3 class="doma-post-item__title">
+                                              <a class="doma-post-item__title-link" title="{{ $post->title }}" href="{{url('/')}}/single/{{$post->id}}/{{str_slug($post->title)}}" >{{ $post->title }}</a>
+                                            </h3>
+                                            <div class="doma-post-item__excerpt doma-post-item__excerpt--featured-pane">{!!  \Illuminate\Support\Str::limit($post->content, 60) !!}..</div>
+                                            <span class="posted-on">
+                                              <time class="entry-date published" datetime="2022-04-01T14:33:30+00:00">{{date("M j, Y", strtotime($post->created_at))}}</time>
+                                            </span>
+                                            <span class="reading-time clock">1 minute read</span>
+                                          </div>
+                                        </div>
+                                      </div><!-- /.doma-post-item -->
                                     </div>
-                                </div><!-- /.doma-posts-list__item -->
-                
-                                <div class="doma-posts-list__item">
-                                    <div class="doma-posts-list__item-content">
-                                        <div class="doma-post-item resource-type_article">
-                                            <div class="doma-post-item__inner">
-                                                <div class="doma-post-item__content">
-                                                    <a class="doma-post-item__top" title="Earn extra cash with crypto" href="/" >
-                                                        <div class="cat">Article </div>
-                                                        <div data-bg="" class="doma-post-item__bg rocket-lazyload" style="background-image: url(/img/photo-1613442301239-ea2478101ea7.jpeg);"></div>
-                                                    </a>
-                                                    <h3 class="doma-post-item__title">
-                                                        <a class="doma-post-item__title-link" title="Texas Customary Closing Costs" href="/" >Earn extra cash with crypto</a>
-                                                    </h3>
-                                                    <div class="doma-post-item__excerpt doma-post-item__excerpt--featured-pane">Buying a home is not as simple as negotiating a price with the seller. There are&hellip;</div>
-                                                    <span class="reading-time clock">2 minute read</span>
-                                                </div>
-                                            </div>
-                                        </div><!-- /.doma-post-item -->
-                                    </div>
-                                </div><!-- /.doma-posts-list__item -->
-                
-                                <div class="doma-posts-list__item">
-                                    <div class="doma-posts-list__item-content">
-                                        <div class="doma-post-item resource-type_article">
-                                            <div class="doma-post-item__inner">
-                                                <div class="doma-post-item__content">
-                                                    <a class="doma-post-item__top" title="Texas Customary Closing Costs " href="/" >
-                                                        <div class="cat">Article </div>
-                                                        <div data-bg="/img/photo-1579226905180-636b76d96082.jpeg" class="doma-post-item__bg rocket-lazyload" style="background-image: url(/img/photo-1579226905180-636b76d96082.jpeg);"></div>
-                                                    </a>
-                                                    <h3 class="doma-post-item__title">
-                                                        <a class="doma-post-item__title-link" title="Texas Customary Closing Costs" href="/" >Texas Customary Closing Costs </a>
-                                                    </h3>
-                                                    <div class="doma-post-item__excerpt doma-post-item__excerpt--featured-pane">Buying a home is not as simple as negotiating a price with the seller. There are&hellip;</div>
-                                                    <span class="reading-time clock">2 minute read</span>
-                                                </div>
-                                            </div>
-                                        </div><!-- /.doma-post-item -->
-                                    </div>
-                                </div><!-- /.doma-posts-list__item -->
+                                  </div><!-- /.doma-posts-list__item -->
+                                @endforeach
                             </div>
                         </div>
                     </div>
@@ -263,8 +201,20 @@
                                 <img src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/Customer-Success-Manager-Icon.svg" class="doma-icon" alt="" data-lazy-src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/Customer-Success-Manager-Icon.svg">
                                 <div class="icon-box__content no-cta">
                                     <span class="icon-box__head">
-                                        <h4 class="heading--bold">Rookie Plan</h4>
-                                        <p class="body_description">A dedicated business ally, providing white-glove service to manage the relationship and ensure it delivers to your strategic goals.</p>
+                                        <h4 class="heading--bold text-center">Rookie Plan <strong style='color: #156CEF;'><em>3.5%</em></strong></h4>
+                                        <hr>
+                                        <ul class="text-center">
+                                            <li>Minimum deposit  -  $1,000</li>
+                                            <li>Maximum deposit  -  $9,999</li>
+                                            <li>Referral-commission  -  3%</li>
+                                        </ul>
+                                        <br>
+                                        <hr>
+                                        <br>
+                                        <div class="text-center">
+                                            <a href="{{ route('user.plans') }}"><h1 class="label-as-button">Purchase Plan</h1></a>
+                                        </div>
+                                        {{-- <p class="body_description">A dedicated business ally, providing white-glove service to manage the relationship and ensure it delivers to your strategic goals.</p> --}}
                                     </span>
                                 </div>
                             </div>
@@ -274,8 +224,20 @@
                                 <img src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/Operations-Account-Manager-Icon.svg" class="doma-icon" alt="Operations-Account-Manager-Icon" data-lazy-src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/Operations-Account-Manager-Icon.svg">
                                 <div class="icon-box__content no-cta">
                                     <span class="icon-box__head">
-                                        <h4 class="heading--bold">Premium Plan</h4>
-                                        <p class="body_description">A dedicated operational specialist that supports your production-related business requirements.</p>
+                                        <h4 class="heading--bold text-center">Premium Plan <strong style='color: #156CEF;'><em>4.9%</em></strong></h4>
+                                        <hr>
+                                        <ul class="text-center">
+                                            <li>Minimum deposit  -  $10,000</li>
+                                            <li>Maximum deposit  -  $49,999</li>
+                                            <li>Referral-commission  -  5%</li>
+                                        </ul>
+                                        <br>
+                                        <hr>
+                                        <br>
+                                        <div class="text-center">
+                                            <a href="{{ route('user.plans') }}"><h1 class="label-as-button">Purchase Plan</h1></a>
+                                        </div>
+                                        {{-- <p class="body_description">A dedicated operational specialist that supports your production-related business requirements.</p> --}}
                                     </span>
                                 </div>
                             </div>
@@ -285,8 +247,20 @@
                                 <img src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/icon-3.svg" class="doma-icon" alt="icon-3" data-lazy-src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/icon-3.svg">
                                 <div class="icon-box__content no-cta">
                                     <span class="icon-box__head">
-                                        <h4 class="heading--bold">Enterprise Plan</h4>
-                                        <p class="body_description">Industry experts organized by customer and product to ensure success at every stage of the loan cycle.</p>
+                                        <h4 class="heading--bold text-center">Enterprise Plan <strong style='color: #156CEF;'><em>7.0%</em></strong></h4>
+                                        <hr>
+                                        <ul class="text-center">
+                                            <li>Minimum deposit  -  $50,000</li>
+                                            <li>Maximum deposit  -  Unlimited</li>
+                                            <li>Referral-commission  -  7%</li>
+                                        </ul>
+                                        <br>
+                                        <hr>
+                                        <br>
+                                        <div class="text-center">
+                                            <a href="{{ route('user.plans') }}"><h1 class="label-as-button">Purchase Plan</h1></a>
+                                        </div>
+                                        {{-- <p class="body_description">Industry experts organized by customer and product to ensure success at every stage of the loan cycle.</p> --}}
                                     </span>
                                 </div>
                             </div>

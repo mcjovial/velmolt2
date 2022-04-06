@@ -39,7 +39,8 @@ class FrontendController extends Controller
         $data['t_profit']=User::sum('total_profit');     
         $data['t_bonus']=User::sum('trade_bonus');     
         $data['t_payout']=Withdraw::wherestatus(1)->sum('amount'); 
-        $data['withdraw']=Withdraw::wherestatus(1)->latest()->get();    
+        $data['withdraw']=Withdraw::wherestatus(1)->latest()->get();
+        $data['posts']=Blog::latest()->paginate(3);
         return view('front.index', $data);
     }
 

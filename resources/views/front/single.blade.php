@@ -20,10 +20,10 @@
               </div>
               <div class="column column--right">
               <div class="social-share ">
-                <a class="social-share__link facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.doma.com%2Fflorida-property-taxes-overview%2F" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a class="social-share__link twitter" href="https://twitter.com/intent/tweet?text=Florida%20Property%20Taxes%20Overview&amp;url=https%3A%2F%2Fwww.doma.com%2Fflorida-property-taxes-overview%2F&amp;via=Crunchify" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a class="social-share__link linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.doma.com%2Fflorida-property-taxes-overview%2F&amp;title=Florida%20Property%20Taxes%20Overview" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <button class="social-share__link js-copybtn" data-url="https://www.doma.com/florida-property-taxes-overview/"><i class="fas fa-copy"></i></button>
+                <a class="social-share__link facebook" href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="social-share__link twitter" href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="social-share__link linkedin" href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <button class="social-share__link js-copybtn" data-url="{{url('/')}}/single/{{$post->id}}/{{str_slug($post->title)}}"><i class="fas fa-copy"></i></button>
               </div>
             </div><!-- .entry-meta -->
           </header><!-- .entry-header -->

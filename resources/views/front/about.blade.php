@@ -58,7 +58,7 @@
 								</div>	
 								<div class="tech-info">
 									<p class="h4 heading_bold">Community</p>
-									<p class="body_description">Build shared-value partnerships with diverse communities, customers, suppliers, and organizations positioning Doma as a preferred brand.</p>
+									<p class="body_description">Build shared-value partnerships with diverse communities, investors, and organizations positioning OptionWhales as a preferred brand.</p>
 								</div>
 							</div>
 						</div>
