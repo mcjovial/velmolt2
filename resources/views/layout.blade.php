@@ -219,8 +219,8 @@
                                 <li class="footer__main-heading mobile-collapse"><span>Investment Plans</span>
                                     <ul class="footer__main-info withLinks">
                                         <li><a href="{{ route('user.plans') }}">Rookie Plan</a></li>
+                                        <li><a href="{{ route('user.plans') }}">Deepstake Plan</a></li>
                                         <li><a href="{{ route('user.plans') }}">Premium Plan</a></li>
-                                        <li><a href="{{ route('user.plans') }}">Enterprise Plan</a></li>
                                     </ul>
                                 </li>
                             </ul>

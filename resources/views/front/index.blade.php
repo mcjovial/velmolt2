@@ -201,11 +201,12 @@
                                 <img src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/Customer-Success-Manager-Icon.svg" class="doma-icon" alt="" data-lazy-src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/Customer-Success-Manager-Icon.svg">
                                 <div class="icon-box__content no-cta">
                                     <span class="icon-box__head">
-                                        <h4 class="heading--bold text-center">Rookie Plan <strong style='color: #156CEF;'><em>3.5%</em></strong></h4>
+                                        <h4 class="heading--bold text-center">Rookie Plan <strong style='color: #156CEF;'><em>9%</em></strong></h4>
+                                        <p class="text-center"><em>Weekly</em></p>
                                         <hr>
                                         <ul class="text-center">
-                                            <li>Minimum deposit  -  $1,000</li>
-                                            <li>Maximum deposit  -  $9,999</li>
+                                            <li>Minimum deposit  -  $999</li>
+                                            <li>Maximum deposit  -  $24,900</li>
                                             <li>Referral-commission  -  3%</li>
                                         </ul>
                                         <br>
@@ -224,11 +225,12 @@
                                 <img src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/Operations-Account-Manager-Icon.svg" class="doma-icon" alt="Operations-Account-Manager-Icon" data-lazy-src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/Operations-Account-Manager-Icon.svg">
                                 <div class="icon-box__content no-cta">
                                     <span class="icon-box__head">
-                                        <h4 class="heading--bold text-center">Premium Plan <strong style='color: #156CEF;'><em>4.9%</em></strong></h4>
+                                        <h4 class="heading--bold text-center">Deepstake Plan <strong style='color: #156CEF;'><em>18%</em></strong></h4>
+                                        <p class="text-center"><em>Monthly</em></p>
                                         <hr>
                                         <ul class="text-center">
-                                            <li>Minimum deposit  -  $10,000</li>
-                                            <li>Maximum deposit  -  $49,999</li>
+                                            <li>Minimum deposit  -  $25,000</li>
+                                            <li>Maximum deposit  -  $99,000</li>
                                             <li>Referral-commission  -  5%</li>
                                         </ul>
                                         <br>
@@ -247,11 +249,12 @@
                                 <img src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/icon-3.svg" class="doma-icon" alt="icon-3" data-lazy-src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/icon-3.svg">
                                 <div class="icon-box__content no-cta">
                                     <span class="icon-box__head">
-                                        <h4 class="heading--bold text-center">Enterprise Plan <strong style='color: #156CEF;'><em>7.0%</em></strong></h4>
+                                        <h4 class="heading--bold text-center">Premium Plan <strong style='color: #156CEF;'><em>25%</em></strong></h4>
+                                        <p class="text-center"><em>Quarterly</em></p>
                                         <hr>
                                         <ul class="text-center">
-                                            <li>Minimum deposit  -  $50,000</li>
-                                            <li>Maximum deposit  -  Unlimited</li>
+                                            <li>Minimum deposit  -  $100,000</li>
+                                            <li>Maximum deposit  -  $700,000</li>
                                             <li>Referral-commission  -  7%</li>
                                         </ul>
                                         <br>
