@@ -3,8 +3,14 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
+        <title>{{ $title }} - {{$set->site_name}}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+        <meta name="robots" content="index, follow">
+        <meta name="apple-mobile-web-app-title" content="{{$set->site_name}}"/>
+        <meta name="application-name" content="{{$set->site_name}}"/>
+        <meta name="msapplication-TileColor" content="{{$set->m_c}}"/>
+        <meta name="description" content="{{$set->site_desc}}" />
+        <link rel="shortcut icon" href="{{url('/')}}/asset/{{$logo->image_link2}}" />
         {{-- <link rel="preload" as="image" href="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/Home-Hero-Image-Mobile-2.jpeg">
         <link rel="preload" as="image" href="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/doma_hero_image.jpg">
 
