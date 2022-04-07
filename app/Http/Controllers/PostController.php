@@ -120,7 +120,6 @@ class PostController extends Controller
     {
 
         $data = Blog::find($request->id);
-        // $in = Input::except('_token');
         if($request->hasFile('image')){
             $image = $request->file('image');
             $filename = 'post_'.time().'.'.$image->extension();

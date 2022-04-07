@@ -14,7 +14,7 @@
             <div class="blog-post__meta">
               <div class="column column--left">
                 <span class="posted-on">
-                  <time class="entry-date published" datetime="2022-04-01T14:33:30+00:00">{{date("M j, Y", strtotime($post->created_at))}}</time>
+                  {{-- <time class="entry-date published" datetime="2022-04-01T14:33:30+00:00">{{date("M j, Y", strtotime($post->created_at))}}</time> --}}
                 </span>
                 <span class="reading-time clock">1 minute read</span>
               </div>

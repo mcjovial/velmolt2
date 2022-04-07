@@ -138,7 +138,7 @@
                                             </h3>
                                             <div class="doma-post-item__excerpt doma-post-item__excerpt--featured-pane">{!!  \Illuminate\Support\Str::limit($post->content, 60) !!}..</div>
                                             <span class="posted-on">
-                                              <time class="entry-date published" datetime="2022-04-01T14:33:30+00:00">{{date("M j, Y", strtotime($post->created_at))}}</time>
+                                              {{-- <time class="entry-date published" datetime="2022-04-01T14:33:30+00:00">{{date("M j, Y", strtotime($post->created_at))}}</time> --}}
                                             </span>
                                             <span class="reading-time clock">1 minute read</span>
                                           </div>
