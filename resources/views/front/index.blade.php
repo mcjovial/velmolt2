@@ -69,7 +69,7 @@
                                 <div class="card-inner">
                                     <span class="tech-info">
                                         <p class="h4 heading_bold">World Class Crypto Trading Technologies</p>
-                                        <p class="body_description">Returns completed settlement statements in under one minute.</p>
+                                        <p class="body_description">Get a sneak peek at some of the advanced trading too indicators and functionality available from the Real-time Dashboard.</p>
                                     </span>
                                     <span class="button-arrow--next">
                                         <span>
@@ -99,7 +99,7 @@
                                 <div class="card-inner">
                                     <span class="tech-info">
                                         <p class="h4 heading_bold">Lucrative Returns</p>
-                                        <p class="body_description">Returns completed settlement statements in under one minute.</p>
+                                        <p class="body_description">See real-time options trading activity and uncover the smart money moves as they happen”.</p>
                                     </span>
                                     <span class="button-arrow--next">
                                         <span>
