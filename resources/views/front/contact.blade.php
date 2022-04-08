@@ -10,9 +10,9 @@
             <div class="lets-talk__content">
 				<h1 class="label-as-button">Let's Talk</h1>
                 <h1 class="section-title">Are you ready to remove the friction and frustration from the closing process?</h1>
-                <p>The closing process doesn’t have to stay stuck in the 19th century. Optionwhales uses machine intelligence and patented technology solutions to provide lenders, real estate professionals, title agents and homebuyers with a vastly more simple, efficient, and affordable closing experience.</p>	
-                <div class="lets-talk__image"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/AdobeStock_342308463.png">
-                    <noscript><img src="https://4cbjf638a92wwst9w2nry0fj-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/AdobeStock_342308463.png" alt=""></noscript>
+                <p>The closing process doesn’t have to stay stuck in the 19th century. Optionwhales uses machine intelligence and patented technology solutions to provide investors and professionals traders with a vastly more simple, efficient, and affordable investing  experience.</p>	
+                <div class="lets-talk__image"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                    <noscript><img src="https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""></noscript>
                 </div>
             </div>
 			<div class="lets-talk__form">
