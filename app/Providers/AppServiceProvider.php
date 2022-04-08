@@ -107,7 +107,7 @@ class AppServiceProvider extends ServiceProvider
                                 'txid' => $val->txn_id,
                             );
                             $result = $cps->ViewTransaction($req);
-                            $status=$result['result']['status'];
+                            $status=isset($result['result']['status']);
                             if($status>=100 || $status==2){
                                 $user->balance=$user->balance + $val->amount - $val->charge;
                                 $user->update();
