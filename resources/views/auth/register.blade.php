@@ -98,7 +98,8 @@
                 <div class="custom-control custom-control-alternative custom-checkbox">
                   <input class="custom-control-input" id=" customCheckLogin" type="checkbox" required>
                   <label class="custom-control-label" for=" customCheckLogin">
-                    <span class="text-muted">Agree to <a href="{{route('terms')}}">Terms & Conditions</a></span>
+                    <span class="text-muted">Agree to <a href="/">Terms & Conditions</a></span>
+                    {{-- <span class="text-muted">Agree to <a href="{{route('terms')}}">Terms & Conditions</a></span> --}}
                   </label>
                 </div>
                 @if($set->recaptcha==1)
