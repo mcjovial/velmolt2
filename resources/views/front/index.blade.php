@@ -155,6 +155,47 @@
         </section> 
     <!--Cards Section Ends-->
 
+        <section class="container">
+            <style>
+                .widget {
+                    width: 1000px;
+                    margin: 0 auto;
+                }
+                @media screen and (max-width: 600px) {
+                    .widget {
+                        width: auto;
+                        overflow-x: scroll;
+                        overflow-y: hidden;
+                    }
+                    ::-webkit-scrollbar-thumb {
+                        background: rgb(147, 144, 144); 
+                        border-radius: 10px;
+                    }
+                    ::-webkit-scrollbar {
+                        width: 10px;
+                    }
+                }
+            </style>
+            <div class="container widget">
+                <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener" target="_blank"><span class="blue-text">Cryptocurrency Markets</span></a> by TradingView</div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+                {
+                    "width": "1000",
+                    "height": "490",
+                    "defaultColumn": "overview",
+                    "screener_type": "crypto_mkt",
+                    "displayCurrency": "USD",
+                    "colorTheme": "light",
+                    "locale": "en"
+                }
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
+        </div>
+        </section>
 
     	<!--50/50 Section Starts-->
         <section class="hero-banner diversity section-with-image">
