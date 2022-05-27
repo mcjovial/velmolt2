@@ -155,7 +155,65 @@
         </section> 
     <!--Cards Section Ends-->
 
-        <section class="container">
+        <section class=" cards__section ">
+            <div class="container">
+                <div class="help__wrapper text-center">
+                    <h3>Market prices</h3>
+                    <div class="doma-blog__container">
+                        <div class="doma-posts-list">
+                            <div class="doma-posts-list__content">
+                                <div class="container">
+                                    <style>
+                                        .widget {
+                                            width: 1000px;
+                                            margin: 0 auto;
+                                        }
+                                        @media screen and (max-width: 600px) {
+                                            .widget {
+                                                width: auto;
+                                                overflow-x: scroll;
+                                                overflow-y: hidden;
+                                            }
+                                            ::-webkit-scrollbar-thumb {
+                                                background: rgb(147, 144, 144); 
+                                                border-radius: 10px;
+                                            }
+                                            ::-webkit-scrollbar {
+                                                width: 10px;
+                                            }
+                                        }
+                                    </style>
+                                    <div class="container widget">
+                                        <!-- TradingView Widget BEGIN -->
+                                        <div class="tradingview-widget-container">
+                                            <div class="tradingview-widget-container__widget"></div>
+                                            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener" target="_blank"><span class="blue-text">Cryptocurrency Markets</span></a> by TradingView</div>
+                                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+                                                {
+                                                    "width": "1000",
+                                                    "height": "490",
+                                                    "defaultColumn": "overview",
+                                                    "screener_type": "crypto_mkt",
+                                                    "displayCurrency": "USD",
+                                                    "colorTheme": "light",
+                                                    "locale": "en"
+                                                }
+                                            </script>
+                                        </div>
+                                        <!-- TradingView Widget END -->
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+
+        
+        
+        {{-- <section class="container">
             <style>
                 .widget {
                     width: 1000px;
@@ -182,21 +240,21 @@
                     <div class="tradingview-widget-container__widget"></div>
                     <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener" target="_blank"><span class="blue-text">Cryptocurrency Markets</span></a> by TradingView</div>
                     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
-                {
-                    "width": "1000",
-                    "height": "490",
-                    "defaultColumn": "overview",
-                    "screener_type": "crypto_mkt",
-                    "displayCurrency": "USD",
-                    "colorTheme": "light",
-                    "locale": "en"
-                }
-                </script>
+                        {
+                            "width": "1000",
+                            "height": "490",
+                            "defaultColumn": "overview",
+                            "screener_type": "crypto_mkt",
+                            "displayCurrency": "USD",
+                            "colorTheme": "light",
+                            "locale": "en"
+                        }
+                    </script>
+                </div>
+                <!-- TradingView Widget END -->
             </div>
-            <!-- TradingView Widget END -->
-        </div>
-        </section>
-
+        </section> --}}
+        
     	<!--50/50 Section Starts-->
         <section class="hero-banner diversity section-with-image">
             <div class="container">
@@ -213,8 +271,8 @@
                 </div>
             </div>
         </section>
-    <!--50/50 Section Ends-->
-    <!--Resources Section Starts-->
+        <!--50/50 Section Ends-->
+        <!--Resources Section Starts-->
         <section class="resource columns__image-text section__margin-default no-background resource together bg-pattern__wireframe-right equal-columns">
             <div class="container">
                 <div class="resource-wrapper columns-wrapper row_reverse">
@@ -229,9 +287,9 @@
                 </div>
             </div>
         </section>
-    <!--Resources Section Ends-->
-
-    <!-- icon-boxes__content Section Starts-->
+        <!--Resources Section Ends-->
+        
+        <!-- icon-boxes__content Section Starts-->
         <section class="icon-boxes__section">
             <div class="container">
                 <div class="icon-boxes__content content__wrapper">
@@ -313,9 +371,40 @@
                 </div>
             </div>
         </section>
-    <!--Doma Intelligence Section Ends-->
-    
-    <!--Resources Section Starts-->
+        <!--Doma Intelligence Section Ends-->
+        
+        <section class=" cards__section ">
+            <div class="container">
+                <div class="help__wrapper text-center">
+                    <h3>Market News</h3>
+                    <div class="doma-blog__container">
+                        <div class="doma-posts-list">
+                            <div class="doma-posts-list__content" style="height: 500px">
+                                <!-- TradingView Widget BEGIN -->
+                                    <div class="tradingview-widget-container">
+                                        <div class="tradingview-widget-container__widget"></div>
+                                        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/key-events/" rel="noopener" target="_blank"><span class="blue-text">Daily news roundup</span></a> by TradingView</div>
+                                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
+                                        {
+                                        "feedMode": "all_symbols",
+                                        "colorTheme": "light",
+                                        "isTransparent": false,
+                                        "displayMode": "adaptive",
+                                        "width": "100%",
+                                        "height": "100%",
+                                        "locale": "en"
+                                    }
+                                        </script>
+                                    </div>
+                                <!-- TradingView Widget END -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        
+        <!--Resources Section Starts-->
         <section class="resource columns__image-text section__margin-default bg-pattern__gradient-colored--left bg-pattern__transparent--right equal-columns">
             <div class="container">
                 <div class="resource-wrapper columns-wrapper row_no_reverse">
