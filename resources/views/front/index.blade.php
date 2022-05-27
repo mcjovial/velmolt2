@@ -115,7 +115,7 @@
         </section>
     <!--Focus Section Ends-->
     <!--Cards Section Starts-->
-        <section class="tech-help cards__section ">
+        {{-- <section class="tech-help cards__section ">
             <div class="container">
                 <div class="help__wrapper">
                     <h3>Grow your knowledge</h3>
@@ -138,7 +138,7 @@
                                             </h3>
                                             <div class="doma-post-item__excerpt doma-post-item__excerpt--featured-pane">{!!  \Illuminate\Support\Str::limit($post->content, 60) !!}..</div>
                                             <span class="posted-on">
-                                              {{-- <time class="entry-date published" datetime="2022-04-01T14:33:30+00:00">{{date("M j, Y", strtotime($post->created_at))}}</time> --}}
+                                              {{-- <time class="entry-date published" datetime="2022-04-01T14:33:30+00:00">{{date("M j, Y", strtotime($post->created_at))}}</time>
                                             </span>
                                             <span class="reading-time clock">1 minute read</span>
                                           </div>
@@ -152,7 +152,7 @@
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>  --}}
     <!--Cards Section Ends-->
 
         <section class=" cards__section ">
@@ -209,51 +209,6 @@
                 </div>
             </div>
         </section> 
-
-
-        
-        
-        {{-- <section class="container">
-            <style>
-                .widget {
-                    width: 1000px;
-                    margin: 0 auto;
-                }
-                @media screen and (max-width: 600px) {
-                    .widget {
-                        width: auto;
-                        overflow-x: scroll;
-                        overflow-y: hidden;
-                    }
-                    ::-webkit-scrollbar-thumb {
-                        background: rgb(147, 144, 144); 
-                        border-radius: 10px;
-                    }
-                    ::-webkit-scrollbar {
-                        width: 10px;
-                    }
-                }
-            </style>
-            <div class="container widget">
-                <!-- TradingView Widget BEGIN -->
-                <div class="tradingview-widget-container">
-                    <div class="tradingview-widget-container__widget"></div>
-                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener" target="_blank"><span class="blue-text">Cryptocurrency Markets</span></a> by TradingView</div>
-                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
-                        {
-                            "width": "1000",
-                            "height": "490",
-                            "defaultColumn": "overview",
-                            "screener_type": "crypto_mkt",
-                            "displayCurrency": "USD",
-                            "colorTheme": "light",
-                            "locale": "en"
-                        }
-                    </script>
-                </div>
-                <!-- TradingView Widget END -->
-            </div>
-        </section> --}}
         
     	<!--50/50 Section Starts-->
         <section class="hero-banner diversity section-with-image">
@@ -376,7 +331,7 @@
         <section class=" cards__section ">
             <div class="container">
                 <div class="help__wrapper text-center">
-                    <h3>Market News</h3>
+                    <h3>Grow Your Knowledge</h3>
                     <div class="doma-blog__container">
                         <div class="doma-posts-list">
                             <div class="doma-posts-list__content" style="height: 500px">
@@ -403,7 +358,7 @@
                 </div>
             </div>
         </section> 
-        
+
         <!--Resources Section Starts-->
         <section class="resource columns__image-text section__margin-default bg-pattern__gradient-colored--left bg-pattern__transparent--right equal-columns">
             <div class="container">
